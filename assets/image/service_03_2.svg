@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329" height="329" viewBox="0 0 329 329">
+  <g id="グループ_188" data-name="グループ 188" transform="translate(-993 -436)">
+    <g id="楕円形_34" data-name="楕円形 34" transform="translate(1008 451)" fill="#fff" stroke="#575757" stroke-width="15">
+      <circle cx="149.5" cy="149.5" r="149.5" stroke="none"/>
+      <circle cx="149.5" cy="149.5" r="157" fill="none"/>
+    </g>
+    <path id="Icon_open-document" data-name="Icon open-document" d="M0,0V171.429H150V85.714H64.286V0ZM85.714,0V64.286H150ZM21.429,42.857H42.857V64.286H21.429Zm0,42.857H42.857v21.429H21.429Zm0,42.857h85.714V150H21.429Z" transform="translate(1083 515)" fill="#575757"/>
+  </g>
+</svg>

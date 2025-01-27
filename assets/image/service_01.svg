@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329" height="329" viewBox="0 0 329 329">
+  <g id="グループ_186" data-name="グループ 186" transform="translate(-163 -70)">
+    <g id="楕円形_32" data-name="楕円形 32" transform="translate(178 85)" fill="#fff" stroke="#575757" stroke-width="15">
+      <circle cx="149.5" cy="149.5" r="149.5" stroke="none"/>
+      <circle cx="149.5" cy="149.5" r="157" fill="none"/>
+    </g>
+    <path id="Icon_material-computer" data-name="Icon material-computer" d="M168.966,124.276a16.874,16.874,0,0,0,16.812-16.9l.084-84.483A16.946,16.946,0,0,0,168.966,6H33.793A16.946,16.946,0,0,0,16.9,22.9v84.483a16.946,16.946,0,0,0,16.9,16.9H0v16.9H202.759v-16.9ZM33.793,22.9H168.966v84.483H33.793Z" transform="translate(226 161)" fill="#575757"/>
+  </g>
+</svg>
