@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="utf-8">
-    <title>Mayumi Sakaguchi -Trilingual Web Creator-</title>
-    <meta name="Robots" content="noindex,nofollow">
-    <meta name="description" content="Mayumi Sakaguchi -Trilingual Web Creator- portfolio">
-    <meta name="keywords" content="Mayumi Sakaguchi, web creator, Japanese, English, French">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-    <meta property="og:description" content="Mayumi Sakaguchi -Trilingual Web Creator- portfolio">
-    <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-        <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/style/main.min.css">
-    <link rel="preconnect" href="https://fo/nts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
-
-<body>
+<?php get_header(); ?>
 
     <!-- Header -->
 
     <header class="header">
         <div class="header__container">
-            <a href="/" class="header__title-link">
-                <img class="header__logo-img" src="/assets/image/logo.svg" alt="">
+            <a href="<?php echo home_url(); ?>" class="header__title-link">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/logo.svg" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-list-item"><a href="/" class="header__nav-link header__current">Top</a></li>
-                    <li class="header__nav-list-item"><a href="/works" class="header__nav-link">Works</a></li>
-                    <li class="header__nav-list-item"><a href="#services" class="header__nav-link">Services</a></li>
-                    <li class="header__nav-list-item"><a href="#news" class="header__nav-link">News</a></li>
-                    <li class="header__nav-list-item"><a href="#profile" class="header__nav-link">Profile</a></li>
-                    <li class="header__nav-list-item"><a href="/jp" class="header__nav-link">日本語</a></li>
-                    <li class="header__nav-list-item"><a href="#contact" class="header__nav-link header__nav-contact-btn">Contact</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>" class="header__nav-link header__current">Top</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/works" class="header__nav-link">Works</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#services" class="header__nav-link">Services</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#news" class="header__nav-link">News</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#profile" class="header__nav-link">Profile</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp" class="header__nav-link">日本語</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#contact" class="header__nav-link header__nav-contact-btn">Contact</a></li>
                 </ul>
             </nav>
             <button class="header__hamburger hamburger" id="js-hamburger">
@@ -71,8 +46,8 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/works#work_01" class="swiper-slide__box">
-                                <img src="/assets/image/work_01.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_01" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_01.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
                                     <li class="swiper-slide__work-list-item">Direction</li>
@@ -92,8 +67,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_02" class="swiper-slide__box">
-                                <img src="/assets/image/work_02.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_02" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_02.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
                                     <li class="swiper-slide__work-list-item">Writing</li>
@@ -110,8 +85,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_03" class="swiper-slide__box">
-                                <img src="/assets/image/work_03.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_03" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_03.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
                                 </ul>
@@ -119,8 +94,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_04" class="swiper-slide__box">
-                                <img src="/assets/image/work_04.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_04" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_04.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
                                 </ul>
@@ -128,8 +103,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_05" class="swiper-slide__box">
-                                <img src="/assets/image/work_05.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_05" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_05.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -138,8 +113,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_06" class="swiper-slide__box">
-                                <img src="/assets/image/work_06.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_06" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_06.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -148,8 +123,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/works#work_07" class="swiper-slide__box">
-                                <img src="/assets/image/work_07.png" class="swiper-slide__image" alt="">
+                            <a href="<?php echo home_url(); ?>/works#work_07" class="swiper-slide__box">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_07.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -167,7 +142,7 @@
             </div>
             <div class="view-more">
                 <div class="view-more__container">
-                    <a href="/works" class="view-more__link">See all works</a>
+                    <a href="<?php echo home_url(); ?>/works" class="view-more__link">See all works</a>
                 </div>
             </div>
         </section>
@@ -207,7 +182,7 @@
                     <ul class="news-latest__item">
                         <li class="news-latest__date">2023.06.07<span class="news-latest__tag new blinking">New</span><span class="news-latest__tag">Information</span></li>
                         <li class="news-latest__data">
-                            <a href="/works/work_01.html" class="news-latest__news-title">My works gallery has been updated.</a>
+                            <a href="<?php echo home_url(); ?>/works/work_01.html" class="news-latest__news-title">My works gallery has been updated.</a>
                         </li>
                     </ul>
                     <ul class="news-latest__item">
@@ -220,7 +195,7 @@
             </div>
             <!-- <div class="view-more">
                 <div class="view-more__container">
-                    <a href="/news" class="view-more__link">See all news</a>
+                    <a href="<?php echo home_url(); ?>/news" class="view-more__link">See all news</a>
                 </div>
             </div> -->
         </section>
@@ -232,7 +207,7 @@
                 <h2 class="profile__title">Profile</h2>
                 <div class="profile__wrapper">
                     <div class="profile__profile-image-box">
-                        <img class="profile__profile-image" src="/assets/image/profile.png" alt="">
+                        <img class="profile__profile-image" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/profile.png" alt="">
                     </div>
                     <div class="profile__profile-text-box">
                         <h3 class="profile__profile-title">Mayumi Sakaguchi</h3>
@@ -341,28 +316,4 @@
             </div>
         </section>
 
-        <!-- To top -->
-
-        <div id="back-to-top" class="back-to-top">
-            <div class="back-to-top__container">
-                <a href="#" class="back-to-top__link">
-                    <img src="/assets/image/to_top_orange.svg" alt="">
-                </a>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <p class="footer__text">copyright &copy; 2025 Mayumi Sakaguchi</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/assets/script/main.js"></script>
-
-</body>
-
-</html>
+        <?php get_footer(); ?>

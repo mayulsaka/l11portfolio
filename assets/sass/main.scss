@@ -1627,17 +1627,17 @@ li {
 		margin: auto;
 		margin-bottom: vw(15);
 		text-align: center;
-		font-size: vw(20);
+		font-size: vw(24);
 		font-weight: 600;
 		line-height: 1.6;
 		@include mq() {
 			margin-bottom: vwt(25);
 			text-align: left;
-			font-size: vwt(24);
+			font-size: vwt(26);
 			line-height: 1.7;
 		}
 		@include mq(lg) {
-			margin-bottom: px2Rem(24);
+			margin-bottom: px2Rem(26);
 			font-size: px2Rem(20);
 		}
 	}

@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="utf-8">
-    <title>制作実績 | 坂口真由美 ～トリリンガル・Webクリエイタ～</title>
-    <meta name="Robots" content="noindex,nofollow">
-    <meta name="description" content="制作実績 | 坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
-    <meta name="keywords" content="Mayumi Sakaguchi, web creator, Japanese, English, French, works, 坂口真由美, webクリエイター, 日本語, 英語, フランス語, 制作実績">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="坂口真由美 ～トリリンガル・Webクリエイタ～">
-    <meta property="og:description" content="坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
-    <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-    <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/style/main.min.css">
-    <link rel="preconnect" href="https://fo/nts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
-
-<body>
+<?php get_header(); ?>
 
     <!-- ヘッダー -->
 
     <header class="header">
         <div class="header__container">
-            <a href="/jp" class="header__title-link">
-                <img class="header__logo-img" src="/assets/image/logo.svg" alt="">
+            <a href="<?php echo home_url(); ?>/jp" class="header__title-link">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-list-item"><a href="/jp" class="header__nav-link">トップ</a></li>
-                    <li class="header__nav-list-item"><a href="/jp/works" class="header__nav-link header__current">制作実績</a></li>
-                    <li class="header__nav-list-item"><a href="#services" class="header__nav-link">サービス内容</a></li>
-                    <li class="header__nav-list-item"><a href="#news" class="header__nav-link">お知らせ</a></li>
-                    <li class="header__nav-list-item"><a href="#profile" class="header__nav-link">プロフィール</a></li>
-                    <li class="header__nav-list-item"><a href="/" class="header__nav-link">English</a></li>
-                    <li class="header__nav-list-item"><a href="#contact" class="header__nav-link header__nav-contact-btn">お問い合わせ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp" class="header__nav-link">トップ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp/works" class="header__nav-link header__current">制作実績</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#services" class="header__nav-link">サービス内容</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#news" class="header__nav-link">お知らせ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#profile" class="header__nav-link">プロフィール</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/" class="header__nav-link">English</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#contact" class="header__nav-link header__nav-contact-btn">お問い合わせ</a></li>
                 </ul>
             </nav>
             <button class="header__hamburger hamburger" id="js-hamburger">
@@ -58,8 +33,8 @@
         <div class="breadcrumb">
             <div class="breadcrumb__container">
                 <ol class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="/jp" class="breadcrumb__link">Top</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                    <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp" class="breadcrumb__link">Top</a></li>
+                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                     <li class="breadcrumb__item">制作実績</li>
                 </ol>
             </div>
@@ -69,15 +44,15 @@
             <div class="works__container">
                 <h1 class="works__title">制作実績</h1>
                 <ul class="works__nav">
-                    <li class="works__nav-item works__current"><a href="/jp/works" class="works__nav-link">すべて</a></li>
-                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">ランディングページ</a></li>
-                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">ウェブサイト</a></li>
-                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">バナー</a></li>
+                    <li class="works__nav-item works__current"><a href="<?php echo home_url(); ?>/jp/works" class="works__nav-link">すべて</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>/jp/works" class="works__nav-link">ランディングページ</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>/jp/works" class="works__nav-link">ウェブサイト</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>/jp/works" class="works__nav-link">バナー</a></li>
                 </ul>
                 <div class="works__display">
                     <div class="works__box">
-                        <a href="/jp/works/work_11.html" class="works__link">
-                            <img src="/assets/image/work_limited.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_11.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">コーディング</li>
                             </ul>
@@ -87,14 +62,14 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_10.html" class="works__link">
-                            <img src="/assets/image/work_limited.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_10.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">コーディング</li>
                             </ul>
@@ -104,14 +79,14 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_09.html" class="works__link">
-                            <img src="/assets/image/work_limited.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_09.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">コーディング</li>
                             </ul>
@@ -121,14 +96,14 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_08.html" class="works__link">
-                            <img src="/assets/image/work_limited.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_08.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">コーディング</li>
                             </ul>
@@ -138,14 +113,14 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_01.html" class="works__link">
-                            <img src="/assets/image/work_01.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_01.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_01.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">プランニング</li>
                                 <li class="works__list-item">ディレクション</li>
@@ -161,14 +136,14 @@
                             <p class="works__list-title">ランディングページ（AI翻訳スクール）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_02.html" class="works__link">
-                            <img src="/assets/image/work_02.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_02.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_02.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">プランニング</li>
                                 <li class="works__list-item">ライティング</li>
@@ -184,42 +159,42 @@
                             <p class="works__list-title">ウェブサイト（ポートフォリオ）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_03.html" class="works__link">
-                            <img src="/assets/image/work_03.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_03.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_03.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">デザイン</li>
                             </ul>
                             <p class="works__list-title">ランディングページ（Webコンサルティング）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_04.html" class="works__link">
-                            <img src="/assets/image/work_04.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_04.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">デザイン</li>
                             </ul>
                             <p class="works__list-title">グラフィック（居酒屋メニュー）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_05.html" class="works__link">
-                            <img src="/assets/image/work_05.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_05.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">ライティング</li>
                                 <li class="works__list-item">デザイン</li>
@@ -227,14 +202,14 @@
                             <p class="works__list-title">バナー（居酒屋オープン告知）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_06.html" class="works__link">
-                            <img src="/assets/image/work_06.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_06.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">ライティング</li>
                                 <li class="works__list-item">デザイン</li>
@@ -242,14 +217,14 @@
                             <p class="works__list-title">バナー（食品キャンペーン告知）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="/jp/works/work_07.html" class="works__link">
-                            <img src="/assets/image/work_07.png" class="works__image" alt="">
+                        <a href="<?php echo home_url(); ?>/jp/works/work_07.html" class="works__link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">ライティング</li>
                                 <li class="works__list-item">デザイン</li>
@@ -257,8 +232,8 @@
                             <p class="works__list-title">動画サムネイル（副業ノウハウ）</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">詳細を見る</li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -267,36 +242,12 @@
                 <div class="pagination">
                     <span class="prev page-numbers">«</span>
                     <span class="pagination__page-numbers current">1</span>
-                    <a class="pagination__page-numbers" href="/jp/works/work_02.html">2</a>
-                    <a class="pagination__page-numbers" href="/jp/works/work_03.html">3</a>
-                    <a class="next page-numbers" href="/jp/works/work_02.html">»</a>
+                    <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work_02.html">2</a>
+                    <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work_03.html">3</a>
+                    <a class="next page-numbers" href="<?php echo home_url(); ?>/jp/works/work_02.html">»</a>
                 </div>
 
             </div>
         </section>
 
-        <!-- To top -->
-
-        <div id="back-to-top" class="back-to-top">
-            <div class="back-to-top__container">
-                <a href="#" class="back-to-top__link">
-                    <img src="/assets/image/to_top_orange.svg" alt="">
-                </a>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <p class="footer__text">copyright &copy; 2025 Mayumi Sakaguchi</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/assets/script/main.js"></script>
-
-</body>
-
-</html>
+        <?php get_footer(); ?>
