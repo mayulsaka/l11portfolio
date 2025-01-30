@@ -5,7 +5,7 @@
     <header class="header">
         <div class="header__container">
             <a href="/" class="header__title-link">
-                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/logo.svg" alt="">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
@@ -34,7 +34,7 @@
             <div class="breadcrumb__container">
                 <ul class="breadcrumb__list">
                     <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>" class="breadcrumb__link">Top</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/breadcrumb_arrow.svg" alt=""></li>
+                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/breadcrumb_arrow.svg" alt=""></li>
                     <li class="breadcrumb__item">404</li>
                 </ul>
             </div>

@@ -5,7 +5,7 @@
     <header class="header">
         <div class="header__container">
             <a href="<?php echo home_url(); ?>" class="header__title-link">
-                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/logo.svg" alt="">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
@@ -47,7 +47,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_01" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_01.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_01.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
                                     <li class="swiper-slide__work-list-item">Direction</li>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_02" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_02.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_02.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
                                     <li class="swiper-slide__work-list-item">Writing</li>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_03" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_03.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_03.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
                                 </ul>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_04" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_04.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
                                 </ul>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_05" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_05.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_06" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_06.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="<?php echo home_url(); ?>/works#work_07" class="swiper-slide__box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/work_07.png" class="swiper-slide__image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -207,7 +207,7 @@
                 <h2 class="profile__title">Profile</h2>
                 <div class="profile__wrapper">
                     <div class="profile__profile-image-box">
-                        <img class="profile__profile-image" src="<?php echo get_template_directory_uri(); ?>/assetsassets/image/profile.png" alt="">
+                        <img class="profile__profile-image" src="<?php echo get_template_directory_uri(); ?>/assets/image/profile.png" alt="">
                     </div>
                     <div class="profile__profile-text-box">
                         <h3 class="profile__profile-title">Mayumi Sakaguchi</h3>
