@@ -242,7 +242,7 @@
                                 <span class="form__must">メールアドレス <span class="magenta">*</span></span>
                             </label>
                             <div class="form__input-wrapper">
-                                <input type="email" name="email" id="email" placeholder="例: ayumi.sakaguchi@sample.com" class="form__input">
+                                <input type="email" name="email" id="email" placeholder="例: mayumi.sakaguchi@sample.com" class="form__input">
                             </div>
                         </div>
                         <div class="form__item">
