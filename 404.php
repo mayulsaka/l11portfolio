@@ -32,11 +32,11 @@
 
         <div class="breadcrumb">
             <div class="breadcrumb__container">
-                <ul class="breadcrumb__list">
+                <ol class="breadcrumb__list">
                     <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>" class="breadcrumb__link">Top</a></li>
                     <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/breadcrumb_arrow.svg" alt=""></li>
                     <li class="breadcrumb__item">404</li>
-                </ul>
+                </ol>
             </div>
         </div>
 
