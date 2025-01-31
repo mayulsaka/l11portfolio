@@ -402,7 +402,7 @@ li {
 	transition: opacity 0.3s, visibility 0.3s;
 	text-align: center;
 	opacity: 0;
-	background: url(../assets/image/to_top_orange.svg);
+	background: url(/assets/image/to_top_orange.svg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-size: contain;
@@ -1170,7 +1170,7 @@ li {
 			height: vw(50);
 			content: "";
 			transform: translateX(-50%);
-			background: url(../assets/image/service_01.svg) no-repeat;
+			background: url(/assets/image/service_01.svg) no-repeat;
 			background-size: contain;
 			@include mq() {
 				top: vwt(-40);
@@ -1196,7 +1196,7 @@ li {
 			height: vw(50);
 			content: "";
 			transform: translateX(-50%);
-			background: url(../assets/image/service_02.svg) no-repeat;
+			background: url(/assets/image/service_02.svg) no-repeat;
 			background-size: contain;
 			@include mq() {
 				top: vwt(-40);
@@ -1222,7 +1222,7 @@ li {
 			height: vw(50);
 			content: "";
 			transform: translateX(-50%);
-			background: url(../assets/image/service_03.svg) no-repeat;
+			background: url(/assets/image/service_03.svg) no-repeat;
 			background-size: contain;
 			@include mq() {
 				top: vwt(-40);
@@ -1248,7 +1248,7 @@ li {
 			height: vw(50);
 			content: "";
 			transform: translateX(-50%);
-			background: url(../assets/image/service_04.svg) no-repeat;
+			background: url(/assets/image/service_04.svg) no-repeat;
 			background-size: contain;
 			@include mq() {
 				top: vwt(-40);
@@ -1687,7 +1687,7 @@ li {
 		border: vw(10) solid #fff;
 		border-radius: 50%;
 		// background-color: #f5f5dc;
-		background: url(../assets/image/tree_bark.jpg);
+		background: url(/assets/image/tree_bark.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
