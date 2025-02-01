@@ -10,7 +10,7 @@
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp" class="header__nav-link header__current">トップ</a></li>
-                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp/works" class="header__nav-link">制作実績</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp-works" class="header__nav-link">制作実績</a></li>
                     <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#services" class="header__nav-link">サービス内容</a></li>
                     <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#news" class="header__nav-link">お知らせ</a></li>
                     <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#profile" class="header__nav-link">プロフィール</a></li>
@@ -142,7 +142,7 @@
             </div>
             <div class="view-more">
                 <div class="view-more__container">
-                    <a href="<?php echo home_url(); ?>/jp/works" class="view-more__link">制作実績一覧へ</a>
+                    <a href="<?php echo home_url(); ?>/jp-works" class="view-more__link">制作実績一覧へ</a>
                 </div>
             </div>
         </section>
@@ -182,7 +182,7 @@
                     <ul class="news-latest__item">
                         <li class="news-latest__date">2023.06.07<span class="news-latest__tag new blinking">新着</span><span class="news-latest__tag">お知らせ</span></li>
                         <li class="news-latest__data">
-                            <a href="<?php echo home_url(); ?>/works/work_01.html" class="news-latest__news-title">制作実績を更新しました。</a>
+                            <a href="<?php echo home_url(); ?>/jp-works" class="news-latest__news-title">制作実績を更新しました。</a>
                         </li>
                     </ul>
                     <ul class="news-latest__item">

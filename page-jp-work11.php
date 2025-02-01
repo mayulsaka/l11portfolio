@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="ja">
+<?php get_header(); ?>
 
-<head>
-    <meta charset="utf-8">
-    <title>制作物紹介 | 坂口真由美 ～トリリンガル・Webクリエイタ～</title>
-    <meta name="Robots" content="noindex,nofollow">
-    <meta name="description" content="制作物紹介 | 坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
-    <meta name="keywords" content="Mayumi Sakaguchi, web creator, Japanese, English, French, works, 坂口真由美, webクリエイター, 日本語, 英語, フランス語, 制作実績">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="坂口真由美 ～トリリンガル・Webクリエイタ～">
-    <meta property="og:description" content="坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
-    <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-    <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/style/main.min.css">
-    <link rel="preconnect" href="https://fo/nts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-    <!-- ヘッダー -->
+    <!-- Header -->
 
     <header class="header">
         <div class="header__container">
-            <a href="/jp" class="header__title-link">
-                <img class="header__logo-img" src="/assets/image/logo.svg" alt="">
+            <a href="<?php echo home_url(); ?>/jp" class="header__title-link">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-list-item"><a href="/jp" class="header__nav-link">トップ</a></li>
-                    <li class="header__nav-list-item"><a href="/jp/works" class="header__nav-link header__current">制作実績</a></li>
-                    <li class="header__nav-list-item"><a href="#services" class="header__nav-link">サービス内容</a></li>
-                    <li class="header__nav-list-item"><a href="#news" class="header__nav-link">お知らせ</a></li>
-                    <li class="header__nav-list-item"><a href="#profile" class="header__nav-link">プロフィール</a></li>
-                    <li class="header__nav-list-item"><a href="/" class="header__nav-link">English</a></li>
-                    <li class="header__nav-list-item"><a href="#contact" class="header__nav-link header__nav-contact-btn">お問い合わせ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp" class="header__nav-link">トップ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp-works" class="header__nav-link header__current">制作実績</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp#services" class="header__nav-link">サービス内容</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp#news" class="header__nav-link">お知らせ</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp#profile" class="header__nav-link">プロフィール</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/" class="header__nav-link">English</a></li>
+                    <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp#contact" class="header__nav-link header__nav-contact-btn">お問い合わせ</a></li>
                 </ul>
             </nav>
             <button class="header__hamburger hamburger" id="js-hamburger">
@@ -58,11 +33,11 @@
         <div class="breadcrumb">
             <div class="breadcrumb__container">
                 <ol class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="/jp" class="breadcrumb__link">トップ</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="/assets/image/breadcrumb_arrow.svg" alt=""></li>
-                    <li class="breadcrumb__item"><a href="/jp/works" class="breadcrumb__link">制作実績</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="/assets/image/breadcrumb_arrow.svg" alt=""></li>
-                    <li class="breadcrumb__item">制作物紹介</li>
+                    <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>" class="breadcrumb__link">Top</a></li>
+                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                    <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/works" class="breadcrumb__link">Works</a></li>
+                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                    <li class="breadcrumb__item">Work details</li>
                 </ol>
             </div>
         </div>
@@ -75,13 +50,13 @@
 
                 <div class="work-details__box">
                     <div class="work-details__box-link">
-                        <a href="#" target="_blank">
+                        <a href="<?php echo home_url(); ?>" target="_blank">
                             <ul class="work-details__list">
                                 <li class="work-details__list-item limited">限定公開</li>
                             </ul>
                             <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
                             <div class="work-details__image-box">
-                                <img src="/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
                             </div>
                             <ul class="work-details__list">
                                 <li class="work-details__list-item">コーディング</li>
@@ -97,7 +72,7 @@
                             <h3 class="work-details__description-title">URL:</h3>
                             <ul class="work-details__description-list">
                                 <li class="work-details__description-list-item--remark">
-                                    <a href="#" target="_blank"><span class="work-details__remark">
+                                    <a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark">
                                             ※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span></a>
                                 </li>
                                 <li class="work-details__description-list-item--remark">
@@ -118,7 +93,7 @@
                             <span class="work-details__description-text">Adobe XD, Photoshop, VS Code</span>
                         </div>
                         <div class="work-details__description">
-                            <h3 class="work-details__description-title">概要とゴール: </h3>
+                            <h3 class="work-details__description-title">ゴール: </h3>
                             <span class="work-details__description-text">※こちらは限定公開となっております。
                                 ご覧いただく際にはID・パスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
                         </div>
@@ -148,41 +123,17 @@
             </div>
 
             <div class="pagination">
-                <a class="prev page-numbers" href="/jp/works/work_10.html">«</a>
-                <a class="next page-numbers" href="/jp/works/work_01.html">»</a>
+                <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-10">«</a>
+                <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-01">»</a>
                 <!-- <span class="next page-numbers">»</span> -->
             </div>
 
             <div class="view-more">
                 <div class="view-more__container">
-                    <a href="/jp/works" class="view-more__link">制作実績一覧へ</a>
+                    <a href="<?php echo home_url(); ?>/jp-works" class="view-more__link">制作実績一覧へ</a>
                 </div>
             </div>
 
         </section>
 
-        <!-- To top -->
-
-        <div id="back-to-top" class="back-to-top">
-            <div class="back-to-top__container">
-                <a href="#" class="back-to-top__link">
-                    <img src="/assets/image/to_top_orange.svg" alt="">
-                </a>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <p class="footer__text">copyright &copy; 2025 Mayumi Sakaguchi</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/assets/script/main.js"></script>
-
-</body>
-
-</html>
+        <?php get_footer(); ?>

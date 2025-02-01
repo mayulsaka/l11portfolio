@@ -65,6 +65,7 @@ html {
 
 body {
 	box-sizing: border-box;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	color: #575757;
@@ -171,7 +172,7 @@ li {
 		align-items: center;
 		flex-direction: row;
 		justify-content: flex-start;
-		max-width: 100%;
+		width: 100%;
 		margin: 0 auto;
 		@include mq() {
 			justify-content: space-between;
@@ -709,7 +710,7 @@ li {
 
 .main-visual {
 	overflow: hidden;
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(180) vw(16) vw(70) vw(16);
 	background: linear-gradient(180deg, #fff, #f5f5dc);
@@ -792,7 +793,7 @@ li {
 /* Works carousel */
 
 .works-carousel {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(30) vw(16) vw(20) vw(16);
 	@include mq() {
@@ -1017,7 +1018,7 @@ li {
 /* Services */
 
 .services {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(30) vw(16) vw(20) vw(16);
 	@include mq() {
@@ -1267,7 +1268,7 @@ li {
 /* News latest */
 
 .news-latest {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(20) vw(16) vw(60) vw(16);
 	@include mq() {
@@ -1527,7 +1528,7 @@ li {
 /* Profile */
 
 .profile {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vwt(30) 0 vwt(20) 0;
 	@include mq() {
@@ -1711,7 +1712,7 @@ li {
 /* Contact */
 
 .contact {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(30) 0 vw(20) 0;
 	@include mq() {
@@ -2018,7 +2019,7 @@ li {
 /* 404 */
 
 .error {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(40) vw(16) vw(20) vw(16);
 	@include mq() {
@@ -2104,7 +2105,7 @@ li {
 /* Works */
 
 .works {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(40) vw(16) vw(20) vw(16);
 	@include mq() {
@@ -2201,13 +2202,14 @@ li {
 		font-size: vw(15);
 		font-weight: 500;
 		@include mq() {
-			width: vwt(180);
+			// width: vwt(180);
+			width: 23%;
 			padding: vwt(5) vwt(15);
 			border-radius: vwt(5);
 			font-size: vwt(15);
 		}
 		@include mq(lg) {
-			width: px2Rem(180);
+			// width: px2Rem(180);
 			padding: px2Rem(5) px2Rem(15);
 			border-radius: px2Rem(5);
 			font-size: px2Rem(15);
@@ -2440,7 +2442,7 @@ li {
 /* Work-details */
 
 .work-details {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: vw(50) vw(16) vw(20) vw(16);
 	@include mq() {

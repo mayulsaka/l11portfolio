@@ -5,6 +5,7 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   color: #575757;
@@ -136,7 +137,7 @@ li {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
@@ -813,7 +814,7 @@ li {
 /* Main visual */
 .main-visual {
   overflow: hidden;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 46.1538461538vw 4.1025641026vw 17.9487179487vw 4.1025641026vw;
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5dc));
@@ -912,7 +913,7 @@ li {
 
 /* Works carousel */
 .works-carousel {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 7.6923076923vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
 }
@@ -1189,7 +1190,7 @@ li {
 
 /* Services */
 .services {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 7.6923076923vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
 }
@@ -1505,7 +1506,7 @@ li {
 
 /* News latest */
 .news-latest {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 5.1282051282vw 4.1025641026vw 15.3846153846vw 4.1025641026vw;
 }
@@ -1838,7 +1839,7 @@ li {
 
 /* Profile */
 .profile {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 2.5vw 0 1.6666666667vw 0;
 }
@@ -2076,7 +2077,7 @@ li {
 
 /* Contact */
 .contact {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 7.6923076923vw 0 5.1282051282vw 0;
 }
@@ -2447,7 +2448,7 @@ li {
 /* -------------------- 404-------------------- */
 /* 404 */
 .error {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 10.2564102564vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
 }
@@ -2549,7 +2550,7 @@ li {
 /* -------------------- Works -------------------- */
 /* Works */
 .works {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 10.2564102564vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
 }
@@ -2673,7 +2674,7 @@ li {
 }
 @media screen and (min-width: 768px) {
   .works__nav-item {
-    width: 15vw;
+    width: 23%;
     padding: 0.4166666667vw 1.25vw;
     border-radius: 0.4166666667vw;
     font-size: 1.25vw;
@@ -2681,7 +2682,6 @@ li {
 }
 @media screen and (min-width: 1200px) {
   .works__nav-item {
-    width: 11.25rem;
     padding: 0.3125rem 0.9375rem;
     border-radius: 0.3125rem;
     font-size: 0.9375rem;
@@ -2977,7 +2977,7 @@ li {
 /* -------------------- Work-details-------------------- */
 /* Work-details */
 .work-details {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 12.8205128205vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
 }

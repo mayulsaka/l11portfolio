@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-        <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
+    <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fo/nts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <?php wp_head(); ?>
 </head>
 
 <body>

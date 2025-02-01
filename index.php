@@ -5,7 +5,7 @@
     <header class="header">
         <div class="header__container">
             <a href="<?php echo home_url(); ?>" class="header__title-link">
-                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
+                <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.png" alt="">
             </a>
             <nav class="header__nav nav" id="js-nav">
                 <ul class="header__nav-list">
@@ -46,7 +46,7 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_01" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work01" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_01.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
@@ -182,7 +182,7 @@
                     <ul class="news-latest__item">
                         <li class="news-latest__date">2023.06.07<span class="news-latest__tag new blinking">New</span><span class="news-latest__tag">Information</span></li>
                         <li class="news-latest__data">
-                            <a href="<?php echo home_url(); ?>/works/work_01.html" class="news-latest__news-title">My works gallery has been updated.</a>
+                            <a href="<?php echo home_url(); ?>/works" class="news-latest__news-title">My works gallery has been updated.</a>
                         </li>
                     </ul>
                     <ul class="news-latest__item">
