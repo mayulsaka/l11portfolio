@@ -33,14 +33,15 @@
     <div class="breadcrumb">
         <div class="breadcrumb__container">
             <ol class="breadcrumb__list">
-                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>" class="breadcrumb__link">Top</a></li>
+                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp" class="breadcrumb__link">トップ</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/works" class="breadcrumb__link">Works</a></li>
+                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item">Work details</li>
             </ol>
         </div>
     </div>
+    
     <!-- Works works -->
 
     <section id="work-details" class="work-details">
@@ -79,11 +80,11 @@
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">担当領域: </h3>
-                        <span class="work-details__description-text">プラニング、ディレクション、コピーライティング、デザイン、コーディング（HTML、Sass、JavaScript、jQuery）、WordPressテーマ開発（PHP）</span>
+                        <span class="work-details__description-text">プラニング、ディレクション、コピーライティング、デザイン、コーディング、WordPress独自テーマ</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">使用ツール: </h3>
-                        <span class="work-details__description-text">Adobe XD, Photoshop, Illustrator, VS Code, WordPress</span>
+                        <h3 class="work-details__description-title">使用スキル: </h3>
+                        <span class="work-details__description-text">Adobe XD、Figma、Photoshop、Illustrator、HTML、CSS、SASS、JavaScript*、jQuery*、VS Code、WordPress、PHP* (*加工レベル)</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">ゴール: </h3>
@@ -129,10 +130,10 @@
         </div>
 
         <div class="pagination">
-                <!-- <span class="prev page-numbers">«</span> -->
-                <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-11">«</a>
-                <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-02">»</a>
-            </div>
+            <!-- <span class="prev page-numbers">«</span> -->
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-11">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-02">»</a>
+        </div>
 
         <div class="view-more">
             <div class="view-more__container">

@@ -67,7 +67,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_02" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work02" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_02.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Planning</li>
@@ -85,7 +85,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_03" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work03" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_03.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -94,7 +94,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_04" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work04" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Design</li>
@@ -103,7 +103,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_05" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work05" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
@@ -113,7 +113,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_06" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work06" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
@@ -123,7 +123,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="<?php echo home_url(); ?>/works#work_07" class="swiper-slide__box">
+                            <a href="<?php echo home_url(); ?>/work07" class="swiper-slide__box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07.png" class="swiper-slide__image" alt="">
                                 <ul class="swiper-slide__work-list">
                                     <li class="swiper-slide__work-list-item">Writing</li>
@@ -228,6 +228,7 @@
                 <h2 class="contact__title">Contact</h2>
                 <div class="contact__wrapper">
                     <!-- Form -->
+                     
                     <form class="form">
                         <div class="form__item">
                             <label for="name" class="form__label">

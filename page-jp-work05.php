@@ -41,7 +41,6 @@
             </ol>
         </div>
     </div>
-
     <!-- Works works -->
 
     <section id="work-details" class="work-details">
@@ -50,77 +49,78 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="<?php echo home_url(); ?>" target="_blank">
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item limited">限定公開</li>
-                        </ul>
-                        <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
+                    <a href="https://mayumi-sakaguchi-dev.com/work_05_org.jpg" class="work-details__link" target="_blank">
+                        <h2 class="work-details__list-title">バナー（居酒屋オープン告知）</h2>
                         <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05_org.jpg" alt="" class="work-details__image">
                         </div>
                         <ul class="work-details__list">
-                            <li class="work-details__list-item">コーディング</li>
+                            <li class="work-details__list-item">ライティング</li>
+                            <li class="work-details__list-item">デザイン</li>
                         </ul>
                     </a>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作物:</h3>
-                        <span class="work-details__description-text">企業Webサイト（農業機器メーカー）</span>
+                        <span class="work-details__description-text">バナー（居酒屋オープン告知）</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark"></a></h3>
-                        <ul class="work-details__description-list">
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
-                            </li>
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※デモ制作のため、一部のみ制作しています。そのためリンク先がエラー表示となる場合があります。</span>
-                            </li>
-                        </ul>
+                        <h3 class="work-details__description-title">URL:</h3>
+                        <span class="work-details__description-text">無し</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作期間: </h3>
-                        <span class="work-details__description-text">2025/01（2週間）</span>
+                        <span class="work-details__description-text">2024/05（1.5日）</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">担当領域: </h3>
-                        <span class="work-details__description-text">コーディング</span>
+                        <span class="work-details__description-text">ライティング、デザイン</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">使用スキル: </h3>
-                        <span class="work-details__description-text">HTML、CSS、SASS、JavaScript*、jQuery*、VS Code、Adobe XD、Photoshop (*加工レベル)</span>
+                        <h3 class="work-details__description-title">使用スキル </h3>
+                        <span class="work-details__description-text">Photoshop</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">ゴール: </h3>
-                        <span class="work-details__description-text">パーフェクトピクセルを追求しながらデザインカンプに沿ったコーディング</span>
+                        <span class="work-details__description-text">（別講座でメニューをデザインした）洗練された和風ダイニングバーのオープン告知用のSNS広告を制作し、より多くの人（とりわけリピーターになってくれそうな地元市民）に関心を持ってもら</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">ターゲット: </h3>
+                        <span class="work-details__description-text">高級ホテルや料亭のような比較的落ち着いた和の雰囲気の中で飲食を楽しみたい18歳以上の多摩市民、日本文化を愛する訪日外国人観光客、子連れママ（ランチタイム）。</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">工夫した点:</h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item">
-                                複雑な装飾を画像で書き出さずに、できる限りコーディングで再現
+                                「古き良き日本（昭和）の雰囲気を残しつつ、古民家をリノベーションした和風ダイニングバーをイメージしました。
                             </li>
                             <li class="work-details__description-list-item">
-                                レスポンシブデザイン
+                                控えめながら洗練されたデザインで日本文化の美しさを表現することを試みました。
                             </li>
                             <li class="work-details__description-list-item">
-                                カルーセルで写真が切り替わるギャラリーの実装（Swiper）
+                                （時間とお金に余裕のない方たちのために）プチ旅行気分を味わえるような、疲れが癒され、「日常を忘れてしまう空間」をアピールしました。
                             </li>
                             <li class="work-details__description-list-item">
-                                一部アコーディオンで表示・非表示可能な形で実装（jQuery使用）
+                                「元5つ星ホテルシェフが作る絶品料理」をアピールしました。
+                            </li>
+                            <li class="work-details__description-list-item">
+                                「シェフが自ら厳選した無農薬・無添加食材へのこだわり」をアピールしました。
+                            </li>
+                            <li class="work-details__description-list-item">
+                                「オープンから5日間は全品半額」の特典をアピールしました。
                                 等。
                             </li>
                         </ul>
                     </div>
+                    <span class="work-details__remark">※こちらの講座はスクール課題として作成した架空のものであり、実在いたしません。</span>
                 </div>
             </div>
         </div>
 
         <div class="pagination">
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-10">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-01">»</a>
-            <!-- <span class="next page-numbers">»</span> -->
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-04">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-06">»</a>
         </div>
 
         <div class="view-more">

@@ -42,6 +42,7 @@
         </div>
     </div>
 
+
     <!-- Works works -->
 
     <section id="work-details" class="work-details">
@@ -50,90 +51,69 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">
-                        <h2 class="work-details__list-title">Landing page (AI translation school)</h2>
+                    <a href="https://mayumi-sakaguchi-dev.com/work_07_org.jpg" class="work-details__link" target="_blank">
+                        <h2 class="work-details__list-title">Video thumbnail (side business ad)</h2>
                         <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01.png" alt="" class="work-details__image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01_sp.png" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07_org.jpg" alt="" class="work-details__image">
                         </div>
                         <ul class="work-details__list">
-                            <li class="work-details__list-item">Planning</li>
-                            <li class="work-details__list-item">Direction</li>
                             <li class="work-details__list-item">Writing</li>
                             <li class="work-details__list-item">Design</li>
-                            <li class="work-details__list-item">Coding</li>
-                            <li class="work-details__list-item">WordPress</li>
                         </ul>
                     </a>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Work type:</h3>
-                        <span class="work-details__description-text">Landing Page creation</span>
+                        <span class="work-details__description-text">Video thumbnail</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">URL:</h3>
-                        <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank"></a></span>
+                        <span class="work-details__description-text">None</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">Production period:</h3>
-                        <span class="work-details__description-text">2024/01-02(2 months)</span>
+                        <h3 class="work-details__description-title">Schedule:</h3>
+                        <span class="work-details__description-text">2024/05 (1.5 days)</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Role:</h3>
-                        <span class="work-details__description-text">Planning, direction, writing, design, coding, WordPress theme creation</span>
+                        <span class="work-details__description-text">Copy writing, design</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Skills:</h3>
-                        <span class="work-details__description-text">Adobe XD, Figma, Photoshop, Illustrator, HTML, CSS, SASS, JavaScript*, jQuery*, VS Code, WordPress, PHP* (*modification)</span>
+                        <span class="work-details__description-text">Photoshop</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Goal:</h3>
-                        <span class="work-details__description-text">To create a Landing Page that links from Social Media ad to acquire new customers.</span>
+                        <span class="work-details__description-text">Created a video thumbnail to attract as many YouTube viewers in Japan as possible (for a video provided from school).</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Target:</h3>
-                        <span class="work-details__description-text">Japanese of all generations having strong interest in translation and AI.</span>
+                        <span class="work-details__description-text">Japanese people from a wide range of generations who are interested in getting rich by earning US dollars while living in Japan.</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Approach:</h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item">
-                                Created a different design for each section while keeping the base color and tone consistent, in order to bring sharpness to the design and story.
+                                Tried to pick up key messages and create attractive copy by repeatedly watching the video provided by a design school.
                             </li>
                             <li class="work-details__description-list-item">
-                                The design allows for a natural flow of Interest (maybe this product is for me!) → Understanding (I see how it works!) → Satisfaction (I can look forward to it, it seems reliable!)
+                                Tried to effectively make use of limited space to communicate key messages while considering display environment.
                             </li>
                             <li class="work-details__description-list-item">
-                                Familiar and easy-to-read font type (Gothic style).
-                            </li>
-                            <li class="work-details__description-list-item">
-                                Used large fonts that are easy to read for a wide range of age groups.
-                            </li>
-                            <li class="work-details__description-list-item">
-                                Used combination of soft and bright green and pink colors, that is easy to catch the eye of all generations and genders.
-                            </li>
-                            <li class="work-details__description-list-item">
-                                Selected images that look more realistic than beautifully processed ones.
-                            </li>
-                            <li class="work-details__description-list-item">
-                                Inserted instructor's pictures with various facial expressions for each section, in order to create a feeling that she is always there for you in any situation.
+                                Tried to use illustration images that can effectively transmit key subject at the first sight.
                                 Etc.
-                            </li>
-                            <li class="work-details__description-list-item">
-                                *For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy presentation material</a></b> (Japanese only)
                             </li>
                         </ul>
                     </div>
-                    <span class="work-details__remark">*This course is a fictitious one created as a school assignment and does not actually exist.</span>
+                    <span class="work-details__remark">*This service is a fictitious one created as a school assignment and does not actually exist.</span>
                 </div>
             </div>
         </div>
 
         <div class="pagination">
-            <!-- <span class="prev page-numbers">«</span> -->
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/work-11">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/work-02">»</a>
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/work-06">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/work-07">»</a>
         </div>
 
         <div class="view-more">

@@ -1,70 +1,46 @@
-<!DOCTYPE html>
-<html lang="ja">
+<?php get_header(); ?>
 
-<head>
-    <meta charset="utf-8">
-    <title>Work details | Mayumi Sakaguchi -Trilingual Web Creator-</title>
-    <meta name="Robots" content="noindex,nofollow">
-    <meta name="description" content="Work details | Mayumi Sakaguchi -Trilingual Web Creator- portfolio">
-    <meta name="keywords" content="Mayumi Sakaguchi, web creator, Japanese, English, Frenc, work">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-    <meta property="og:description" content="Mayumi Sakaguchi -Trilingual Web Creator- portfolio">
-    <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
-    <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/style/main.min.css">
-    <link rel="preconnect" href="https://fo/nts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
+<!-- Header -->
 
-<body>
+<header class="header">
+    <div class="header__container">
+        <a href="<?php echo home_url(); ?>" class="header__title-link">
+            <img class="header__logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.svg" alt="">
+        </a>
+        <nav class="header__nav nav" id="js-nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>" class="header__nav-link">Top</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/works" class="header__nav-link header__current">Works</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#services" class="header__nav-link">Services</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#news" class="header__nav-link">News</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#profile" class="header__nav-link">Profile</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>/jp" class="header__nav-link">日本語</a></li>
+                <li class="header__nav-list-item"><a href="<?php echo home_url(); ?>#contact" class="header__nav-link header__nav-contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="header__hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
 
-    <!-- ヘッダー -->
+<main class="main">
 
-    <header class="header">
-        <div class="header__container">
-            <a href="/" class="header__title-link">
-                <img class="header__logo-img" src="/assets/image/logo.svg" alt="">
-            </a>
-            <nav class="header__nav nav" id="js-nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-list-item"><a href="/" class="header__nav-link">Top</a></li>
-                    <li class="header__nav-list-item"><a href="/works" class="header__nav-link header__current">Works</a></li>
-                    <li class="header__nav-list-item"><a href="/#services" class="header__nav-link">Services</a></li>
-                    <li class="header__nav-list-item"><a href="/#news" class="header__nav-link">News</a></li>
-                    <li class="header__nav-list-item"><a href="/#profile" class="header__nav-link">Profile</a></li>
-                    <li class="header__nav-list-item"><a href="/jp" class="header__nav-link">日本語</a></li>
-                    <li class="header__nav-list-item"><a href="/#contact" class="header__nav-link header__nav-contact-btn">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="header__hamburger hamburger" id="js-hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+    <!-- Breadcrumb -->
+
+    <div class="breadcrumb">
+        <div class="breadcrumb__container">
+            <ol class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/" class="breadcrumb__link">Top</a></li>
+                <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/works" class="breadcrumb__link">Works</a></li>
+                <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                <li class="breadcrumb__item">Work details</li>
+            </ol>
         </div>
-    </header>
-
-    <main class="main">
-
-        <!-- Breadcrumb -->
-
-        <div class="breadcrumb">
-            <div class="breadcrumb__container">
-                <ol class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Top</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="/assets/image/arrow.png" alt=""></li>
-                    <li class="breadcrumb__item"><a href="/works" class="breadcrumb__link">Works</a></li>
-                    <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="/assets/image/arrow.png" alt=""></li>
-                    <li class="breadcrumb__item">Work details</li> 
-                </ol>
-            </div>
-        </div>
+    </div>
 
         <!-- Works works -->
 
@@ -77,8 +53,8 @@
                         <a href="https://mayumi-sakaguchi-dev.com/ms-portfolio" class="work-details__link" target="_blank">
                             <h2 class="work-details__list-title">Website (portfolio)</h2>
                             <div class="work-details__image-box">
-                                <img src="/assets/image/work_detail_02.png" alt="" class="work-details__image">
-                                <img src="/assets/image/work_detail_02_sp.png" alt="" class="work-details__image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02.png" alt="" class="work-details__image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02_sp.png" alt="" class="work-details__image">
                             </div>
                             <ul class="work-details__list">
                                 <li class="work-details__list-item">Planning</li>
@@ -139,40 +115,16 @@
             </div>
 
             <div class="pagination">
-                <a class="prev page-numbers" href="/works/work_01.html">«</a>
-                <a class="next page-numbers" href="/works/work_03.html">»</a>
+                <a class="prev page-numbers" href="<?php echo home_url(); ?>/work-01">«</a>
+                <a class="next page-numbers" href="<?php echo home_url(); ?>/work-03">»</a>
             </div>
 
             <div class="view-more">
                 <div class="view-more__container">
-                    <a href="/works" class="view-more__link">See all works</a>
+                    <a href="<?php echo home_url(); ?>/works" class="view-more__link">See all works</a>
                 </div>
             </div>
 
         </section>
 
-        <!-- To top -->
-
-        <div id="back-to-top" class="back-to-top">
-            <div class="back-to-top__container">
-                <a href="#" class="back-to-top__link">
-                    <img src="/assets/image/to_top_orange.svg" alt="">
-                </a>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <p class="footer__text">copyright &copy; 2025 Mayumi Sakaguchi</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/assets/script/main.js"></script>
-
-</body>
-
-</html>
+        <?php get_footer(); ?>

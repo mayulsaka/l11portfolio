@@ -44,14 +44,14 @@
             <div class="works__container">
                 <h1 class="works__title">Works</h1>
                 <ul class="works__nav">
-                    <li class="works__nav-item works__current"><a href="<?php echo home_url(); ?>" class="works__nav-link">ALL</a></li>
-                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link">Landing page</a></li>
-                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link">Website</a></li>
-                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link">Banner</a></li>
+                    <li class="works__nav-item works__current"><a href="<?php echo home_url(); ?>" class="works__nav-link all">ALL</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link lp">Landing page</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link website">Website</a></li>
+                    <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link other">Other</a></li>
                 </ul>
                 <div class="works__display">
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/work11" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work11" class="works__link website">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Coding</li>
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_10.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work10" class="works__link lp">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Coding</li>
@@ -85,7 +85,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_09.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work09" class="works__link lp>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Coding</li>
@@ -102,7 +102,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_08.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work08" class="works__link lp">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Coding</li>
@@ -119,7 +119,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/work01" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work01" class="works__link lp">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_01.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Planning</li>
@@ -142,7 +142,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_02.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work02" class="works__link website">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_02.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Planning</li>
@@ -165,7 +165,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_03.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work03" class="works__link lp">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_03.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Design</li>
@@ -179,7 +179,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_04.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work04" class="works__link other">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Design</li>
@@ -193,7 +193,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_05.html" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work05" class="works__link other">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Writing</li>
@@ -208,7 +208,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_06" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work06" class="works__link other">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Writing</li>
@@ -223,7 +223,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/works/work_07" class="works__link">
+                        <a href="<?php echo home_url(); ?>/work07" class="works__link other">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Writing</li>

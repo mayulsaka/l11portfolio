@@ -50,77 +50,66 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="<?php echo home_url(); ?>" target="_blank">
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item limited">限定公開</li>
-                        </ul>
-                        <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
+                    <a href="https://mayumi-sakaguchi-dev.com/work_06_org.jpg" class="work-details__link" target="_blank">
+                        <h2 class="work-details__list-title">バナー（食品キャンペーン告知）</h2>
                         <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06_org.jpg" alt="" class="work-details__image">
                         </div>
                         <ul class="work-details__list">
-                            <li class="work-details__list-item">コーディング</li>
+                            <li class="work-details__list-item">ライティング</li>
+                            <li class="work-details__list-item">デザイン</li>
                         </ul>
                     </a>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作物:</h3>
-                        <span class="work-details__description-text">企業Webサイト（農業機器メーカー）</span>
+                        <span class="work-details__description-text">バナー（食品キャンペーン告知）</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark"></a></h3>
-                        <ul class="work-details__description-list">
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
-                            </li>
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※デモ制作のため、一部のみ制作しています。そのためリンク先がエラー表示となる場合があります。</span>
-                            </li>
-                        </ul>
+                        <h3 class="work-details__description-title">URL:</h3>
+                        <span class="work-details__description-text">無し</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作期間: </h3>
-                        <span class="work-details__description-text">2025/01（2週間）</span>
+                        <span class="work-details__description-text">2024/12（1.5日）</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">担当領域: </h3>
-                        <span class="work-details__description-text">コーディング</span>
+                        <span class="work-details__description-text">コピーライティング、デザイン</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">使用スキル: </h3>
-                        <span class="work-details__description-text">HTML、CSS、SASS、JavaScript*、jQuery*、VS Code、Adobe XD、Photoshop (*加工レベル)</span>
+                        <h3 class="work-details__description-title">使用スキル </h3>
+                        <span class="work-details__description-text">Photoshop</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">ゴール: </h3>
-                        <span class="work-details__description-text">パーフェクトピクセルを追求しながらデザインカンプに沿ったコーディング</span>
+                        <span class="work-details__description-text">新商品をきっかけにローズガーデンのブランド認知を高めつつ、キャンペーンを用いて販売サイトへ誘導し、売上を伸ばす。</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">ターゲット: </h3>
+                        <span class="work-details__description-text">「自然の美しさや上質な時間を大切にする40 代から50 代の大人の女性」に、薔薇の優雅さをさらに身近に感じながら、特別な癒しとリラックス時間をお楽しみいただくことを通して、ブランド価値を高めていけるライティングを意識しました。</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">工夫した点:</h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item">
-                                複雑な装飾を画像で書き出さずに、できる限りコーディングで再現
+                                お客様が本商品を購入することで得られるベネフィットも強調するため、上部にお客様が得られるベネフィットを描く画像を用意しました（生成AI）。
                             </li>
                             <li class="work-details__description-list-item">
-                                レスポンシブデザイン
-                            </li>
-                            <li class="work-details__description-list-item">
-                                カルーセルで写真が切り替わるギャラリーの実装（Swiper）
-                            </li>
-                            <li class="work-details__description-list-item">
-                                一部アコーディオンで表示・非表示可能な形で実装（jQuery使用）
+                                ローズガーデンのイメージ（自然の美しさと上質さを提供する特別な空間）をダイレクトに強調できるような画像の生成を試みました。
                                 等。
                             </li>
                         </ul>
                     </div>
+                    <span class="work-details__remark">※こちらの会社や商品はスクール課題として作成した架空のものであり、実在いたしません。</span>
                 </div>
             </div>
         </div>
 
         <div class="pagination">
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-10">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-01">»</a>
-            <!-- <span class="next page-numbers">»</span> -->
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-05">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-07">»</a>
         </div>
 
         <div class="view-more">

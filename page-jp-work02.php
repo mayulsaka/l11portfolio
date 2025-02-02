@@ -50,65 +50,62 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="<?php echo home_url(); ?>" target="_blank">
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item limited">限定公開</li>
-                        </ul>
-                        <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
+                    <a href="https://mayumi-sakaguchi-dev.com/ms-portfolio" class="work-details__link" target="_blank">
+                        <h2 class="work-details__list-title">ウェブサイト（ポートフォリオ）</h2>
                         <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02.png" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02_sp.png" alt="" class="work-details__image">
                         </div>
                         <ul class="work-details__list">
+                            <li class="work-details__list-item">プランニング</li>
+                            <li class="work-details__list-item">ライティング</li>
+                            <li class="work-details__list-item">翻訳</li>
+                            <li class="work-details__list-item">デザイン</li>
                             <li class="work-details__list-item">コーディング</li>
+                            <li class="work-details__list-item">WordPress</li>
                         </ul>
                     </a>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作物:</h3>
-                        <span class="work-details__description-text">企業Webサイト（農業機器メーカー）</span>
+                        <span class="work-details__description-text">ウェブサイト（ポートフォリオ）</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark"></a></h3>
-                        <ul class="work-details__description-list">
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
-                            </li>
-                            <li class="work-details__description-list-item--remark">
-                                <span class="work-details__remark">※デモ制作のため、一部のみ制作しています。そのためリンク先がエラー表示となる場合があります。</span>
-                            </li>
-                        </ul>
+                        <h3 class="work-details__description-title">URL:</h3>
+                        <span class="work-details__description-text"><span class="work-details__remark">※当サイト</span></span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作期間: </h3>
-                        <span class="work-details__description-text">2025/01（2週間）</span>
+                        <span class="work-details__description-text">2024/02-03（1～2週間）</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">担当領域: </h3>
-                        <span class="work-details__description-text">コーディング</span>
+                        <span class="work-details__description-text">プラニング、コピーライティング、翻訳、デザイン、コーディング、WordPress独自テーマ</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">使用スキル: </h3>
-                        <span class="work-details__description-text">HTML、CSS、SASS、JavaScript*、jQuery*、VS Code、Adobe XD、Photoshop (*加工レベル)</span>
+                        <span class="work-details__description-text">Adobe XD、Figma、Photoshop、Illustrator、翻訳、HTML、CSS、SASS、JavaScript*、jQuery*、VS Code、WordPress、PHP* (*加工レベル)</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">ゴール: </h3>
-                        <span class="work-details__description-text">パーフェクトピクセルを追求しながらデザインカンプに沿ったコーディング</span>
+                        <span class="work-details__description-text">私の主な制作実績を紹介する独自ポートフォリオ サイトを作成。</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">ターゲット: </h3>
+                        <span class="work-details__description-text">世界中のすべての人々、とりわけ採用担当者。</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">工夫した点:</h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item">
-                                複雑な装飾を画像で書き出さずに、できる限りコーディングで再現
+                                世界中の人が閲覧できるよう、英語でサイトを作成しました。
                             </li>
                             <li class="work-details__description-list-item">
-                                レスポンシブデザイン
+                                誰にとっても分かりやすくまとまった内容を心がけました
                             </li>
                             <li class="work-details__description-list-item">
-                                カルーセルで写真が切り替わるギャラリーの実装（Swiper）
-                            </li>
-                            <li class="work-details__description-list-item">
-                                一部アコーディオンで表示・非表示可能な形で実装（jQuery使用）
+                                エネルギーと粘り強さを表現するアースカラー（茶色）と、日の出と希望の花を表現するイエロー系カラーを採用しました。
                                 等。
                             </li>
                         </ul>
@@ -118,9 +115,8 @@
         </div>
 
         <div class="pagination">
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-10">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-01">»</a>
-            <!-- <span class="next page-numbers">»</span> -->
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-01">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-03">»</a>
         </div>
 
         <div class="view-more">
