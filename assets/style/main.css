@@ -1196,12 +1196,12 @@ li {
 }
 @media screen and (min-width: 768px) {
   .services {
-    padding: 3.3333333333vw 1.6666666667vw 3.3333333333vw 1.6666666667vw;
+    padding: 3.3333333333vw 1.6666666667vw 4.1666666667vw 1.6666666667vw;
   }
 }
 @media screen and (min-width: 1200px) {
   .services {
-    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    padding: 2.5rem 1.25rem 3.125rem 1.25rem;
   }
 }
 .services__container {
@@ -2079,16 +2079,16 @@ li {
 .contact {
   width: 100%;
   margin: 0 auto;
-  padding: 7.6923076923vw 0 5.1282051282vw 0;
+  padding: 7.6923076923vw 0 3.8461538462vw 0;
 }
 @media screen and (min-width: 768px) {
   .contact {
-    padding: 5vw 1.6666666667vw 3.3333333333vw 0.8333333333vw;
+    padding: 5vw 1.6666666667vw 2.5vw 0.8333333333vw;
   }
 }
 @media screen and (min-width: 1200px) {
   .contact {
-    padding: 3.75rem 1.25rem 2.5rem 1.25rem;
+    padding: 3.75rem 1.25rem 1.875rem 1.25rem;
   }
 }
 .contact__container {
@@ -2225,6 +2225,7 @@ li {
     margin-bottom: 0.625rem;
   }
 }
+
 .form__must {
   display: block;
   margin-top: 3.8461538462vw;
@@ -2247,6 +2248,7 @@ li {
     font-size: 1rem;
   }
 }
+
 .form__optional {
   display: block;
   margin-top: 3.8461538462vw;
@@ -2266,6 +2268,7 @@ li {
     font-size: 1rem;
   }
 }
+
 .form__input-wrapper {
   width: 100%;
   margin-top: 1.2820512821vw;
@@ -2281,7 +2284,8 @@ li {
     margin-top: 0.3125rem;
   }
 }
-.form__input[type=text], .form__input[type=tel], .form__input[type=email], .form__input[type=email2] {
+
+input[type=text], input[type=tel], input[type=email], input[type=email2], input[type=company], input[type=department], textarea {
   width: 100%;
   padding: 2.5641025641vw 3.8461538462vw;
   -webkit-transition: 0.1s;
@@ -2293,19 +2297,42 @@ li {
   font-size: 3.8461538462vw;
 }
 @media screen and (min-width: 768px) {
-  .form__input[type=text], .form__input[type=tel], .form__input[type=email], .form__input[type=email2] {
+  input[type=text], input[type=tel], input[type=email], input[type=email2], input[type=company], input[type=department], textarea {
     padding: 0.8333333333vw 1.25vw;
     font-size: 1.3333333333vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .form__input[type=text], .form__input[type=tel], .form__input[type=email], .form__input[type=email2] {
+  input[type=text], input[type=tel], input[type=email], input[type=email2], input[type=company], input[type=department], textarea {
     padding: 0.625rem 0.9375rem;
     font-size: 1rem;
   }
 }
-.form__inquiry-box {
-  width: 100%;
+
+textarea {
+  max-width: 100%;
+  padding: 2.5641025641vw 3.8461538462vw;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  outline: solid 1px #575757;
+  background-color: #eeeeee;
+  font-size: 3.8461538462vw;
+}
+@media screen and (min-width: 768px) {
+  textarea {
+    padding: 0.8333333333vw 1.25vw;
+    font-size: 1.3333333333vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  textarea {
+    padding: 0.625rem 0.9375rem;
+    font-size: 1rem;
+  }
+}
+
+textarea {
+  max-width: 100%;
   padding: 2.0512820513vw;
   -webkit-transition: 0.1s;
   transition: 0.1s;
@@ -2314,36 +2341,39 @@ li {
   font-size: 3.8461538462vw;
 }
 @media screen and (min-width: 768px) {
-  .form__inquiry-box {
+  textarea {
     padding: 0.6666666667vw;
     font-size: 1.3333333333vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .form__inquiry-box {
+  textarea {
     padding: 0.5rem;
     font-size: 1rem;
   }
 }
-.form__input[type=text]:focus, .form__input[type=tel]:focus, .form__input[type=email]:focus, .form textarea:focus {
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=email2]:focus, input[type=company]:focus, input[type=department]:focus, textarea:focus {
   color: #575757;
   border-radius: 1.2820512821vw;
   outline: solid 1px #575757;
   background-color: beige;
 }
 @media screen and (min-width: 768px) {
-  .form__input[type=text]:focus, .form__input[type=tel]:focus, .form__input[type=email]:focus, .form textarea:focus {
+  input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=email2]:focus, input[type=company]:focus, input[type=department]:focus, textarea:focus {
     border-radius: 0.4166666667vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .form__input[type=text]:focus, .form__input[type=tel]:focus, .form__input[type=email]:focus, .form textarea:focus {
+  input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=email2]:focus, input[type=company]:focus, input[type=department]:focus, textarea:focus {
     border-radius: 0.3125rem;
   }
 }
+
 .form__privacy-box {
   overflow-x: hidden;
   overflow-y: scroll;
+  max-width: 100%;
   height: 51.2820512821vw;
   margin-top: 1.2820512821vw;
   margin-bottom: 2.5641025641vw;
@@ -2373,6 +2403,7 @@ li {
     font-size: 1rem;
   }
 }
+
 .form__privacy-text {
   padding-bottom: 2.5641025641vw;
 }
@@ -2386,7 +2417,8 @@ li {
     padding-bottom: 0.625rem;
   }
 }
-.form input[type=submit] {
+
+input[type=submit] {
   display: inline-block;
   width: 100%;
   max-width: 76.9230769231vw;
@@ -2395,6 +2427,7 @@ li {
   padding: 3.0769230769vw 2.5641025641vw;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  text-align: center;
   color: #fff;
   border: 1px solid #575757;
   border-radius: 10.2564102564vw;
@@ -2405,7 +2438,7 @@ li {
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
-  .form input[type=submit] {
+  input[type=submit] {
     max-width: 25vw;
     margin-top: 2.5vw;
     margin-bottom: 2.5vw;
@@ -2414,7 +2447,7 @@ li {
   }
 }
 @media screen and (min-width: 1200px) {
-  .form input[type=submit] {
+  input[type=submit] {
     max-width: 18.75rem;
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
@@ -2422,27 +2455,44 @@ li {
     font-size: 0.9375rem;
   }
 }
-.form input[type=submit]:hover {
+
+input[type=submit]:hover {
   opacity: 1;
   color: #575757;
   background-position: right;
 }
-.form input {
-  color: #575757;
-}
-.form .error {
+
+.error {
   color: #cc4a8b;
   font-size: 0.4102564103vw;
 }
 @media screen and (min-width: 768px) {
-  .form .error {
+  .error {
     font-size: 0.1333333333vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .form .error {
+  .error {
     font-size: 0.1rem;
   }
+}
+
+span.wpcf7-spinner {
+  display: none;
+}
+
+.wpcf7-form-control, .wpcf7-form {
+  margin: 0;
+  padding: 0;
+}
+
+.wpcf7-form-control-wrap {
+  margin: 0;
+  padding: 0;
+}
+
+.form__label br {
+  display: none;
 }
 
 /* -------------------- 404-------------------- */

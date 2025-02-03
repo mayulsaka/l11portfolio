@@ -3,7 +3,7 @@
 // 変数設定
 
 $sp-full-width: 390;
-$pc-full-width: 1440;
+$pc-full-width: 1920;
 $pc-content-width: 1200;
 $breakpoint-md: 768;
 $breakpoint-lg: $pc-content-width;
@@ -462,7 +462,6 @@ li {
 		padding-right: px2Rem(16);
 		padding-left: px2Rem(16);
 	}
-
 	&__text {
 		display: flex;
 		align-items: center;
@@ -1022,10 +1021,10 @@ li {
 	margin: 0 auto;
 	padding: vw(30) vw(16) vw(20) vw(16);
 	@include mq() {
-		padding: vwt(40) vwt(20) vwt(40) vwt(20);
+		padding: vwt(40) vwt(20) vwt(50) vwt(20);
 	}
 	@include mq(lg) {
-		padding: px2Rem(40) px2Rem(20) px2Rem(40) px2Rem(20);
+		padding: px2Rem(40) px2Rem(20) px2Rem(50) px2Rem(20);
 	}
 
 	&__container {
@@ -1714,12 +1713,12 @@ li {
 .contact {
 	width: 100%;
 	margin: 0 auto;
-	padding: vw(30) 0 vw(20) 0;
+	padding: vw(30) 0 vw(15) 0;
 	@include mq() {
-		padding: vwt(60) vwt(20) vwt(40) vwt(10);
+		padding: vwt(60) vwt(20) vwt(30) vwt(10);
 	}
 	@include mq(lg) {
-		padding: px2Rem(60) px2Rem(20) px2Rem(40) px2Rem(20);
+		padding: px2Rem(60) px2Rem(20) px2Rem(30) px2Rem(20);
 	}
 
 	&__container {
@@ -1811,208 +1810,300 @@ li {
 	}
 	@include mq(lg) {
 	}
+}
 
-	&__label {
-		margin-bottom: vw(10);
-		margin-left: 0;
-		text-align: left;
-		@include mq() {
-			margin-bottom: vwt(10);
-		}
-		@include mq(lg) {
-			margin-bottom: px2Rem(10);
-		}
+
+.form__label {
+	margin-bottom: vw(10);
+	margin-left: 0;
+	text-align: left;
+	@include mq() {
+		margin-bottom: vwt(10);
 	}
-
-	&__must {
-		display: block;
-		margin-top: vw(15);
-		margin-bottom: vw(5);
-		text-align: left;
-		font-size: vw(16);
-		font-weight: 600;
-		@include mq() {
-			margin-top: vwt(15);
-			margin-bottom: vwt(5);
-			font-size: vwt(16);
-		}
-		@include mq(lg) {
-			margin-top: px2Rem(15);
-			margin-bottom: px2Rem(5);
-			font-size: px2Rem(16);
-		}
+	@include mq(lg) {
+		margin-bottom: px2Rem(10);
 	}
+}
 
-	&__optional {
-		display: block;
-		margin-top: vw(15);
-		text-align: left;
-		font-size: vw(16);
-		font-weight: 600;
-		@include mq() {
-			margin-top: vwt(15);
-			font-size: vwt(16);
-		}
-		@include mq(lg) {
-			margin-top: px2Rem(15);
-			font-size: px2Rem(16);
-		}
+.form__must {
+	display: block;
+	margin-top: vw(15);
+	margin-bottom: vw(5);
+	text-align: left;
+	font-size: vw(16);
+	font-weight: 600;
+	@include mq() {
+		margin-top: vwt(15);
+		margin-bottom: vwt(5);
+		font-size: vwt(16);
 	}
-
-	&__input-wrapper {
-		width: 100%;
-		margin-top: vw(5);
-		text-align: left;
-		@include mq() {
-			margin-top: vwt(5);
-		}
-		@include mq(lg) {
-			margin-top: px2Rem(5);
-		}
+	@include mq(lg) {
+		margin-top: px2Rem(15);
+		margin-bottom: px2Rem(5);
+		font-size: px2Rem(16);
 	}
+}
 
-	&__input[type="text"], &__input[type="tel"], &__input[type="email"], &__input[type="email2"] {
-		width: 100%;
-		padding: vw(10) vw(15);
-		transition: 0.1s;
+.form__optional {
+	display: block;
+	margin-top: vw(15);
+	text-align: left;
+	font-size: vw(16);
+	font-weight: 600;
+	@include mq() {
+		margin-top: vwt(15);
+		font-size: vwt(16);
+	}
+	@include mq(lg) {
+		margin-top: px2Rem(15);
+		font-size: px2Rem(16);
+	}
+}
+
+.form__input-wrapper {
+	width: 100%;
+	margin-top: vw(5);
+	text-align: left;
+	@include mq() {
+		margin-top: vwt(5);
+	}
+	@include mq(lg) {
+		margin-top: px2Rem(5);
+	}
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="email2"], input[type="company"], input[type="department"], textarea {
+	width: 100%;
+	padding: vw(10) vw(15);
+	transition: 0.1s;
+	color: #575757;
+	border: none;
+	outline: solid 1px #575757;
+	background-color: #eeeeee;
+	font-size: vw(15);
+	@include mq() {
+		padding: vwt(10) vwt(15);
+		font-size: vwt(16);
+	}
+	@include mq(lg) {
+		padding: px2Rem(10) px2Rem(15);
+		font-size: px2Rem(16);
+	}
+}
+
+textarea {
+	max-width: 100%;
+	padding: vw(10) vw(15);
+	transition: 0.1s;
+	outline: solid 1px #575757;
+	background-color: #eeeeee;
+	font-size: vw(15);
+	@include mq() {
+		padding: vwt(10) vwt(15);
+		font-size: vwt(16);
+	}
+	@include mq(lg) {
+		padding: px2Rem(10) px2Rem(15);
+		font-size: px2Rem(16);
+	}
+}
+
+textarea {
+	max-width: 100%;
+	padding: vw(8);
+	transition: 0.1s;
+	outline: solid 1px #575757;
+	background-color: #eeeeee;
+	font-size: vw(15);
+	@include mq() {
+		padding: vwt(8);
+		font-size: vwt(16);
+	}
+	@include mq(lg) {
+		padding: px2Rem(8);
+		font-size: px2Rem(16);
+	}
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="email2"], input[type="company"], input[type="department"], textarea {
+	&:focus {
 		color: #575757;
-		border: none;
+		border-radius: vw(5);
 		outline: solid 1px #575757;
-		background-color: #eeeeee;
-		font-size: vw(15);
+		background-color: beige;
 		@include mq() {
-			padding: vwt(10) vwt(15);
-			font-size: vwt(16);
+			border-radius: vwt(5);
 		}
 		@include mq(lg) {
-			padding: px2Rem(10) px2Rem(15);
-			font-size: px2Rem(16);
-		}
-	}
-
-	&__inquiry-box {
-		width: 100%;
-		padding: vw(8);
-		transition: 0.1s;
-		outline: solid 1px #575757;
-		background-color: #eeeeee;
-		font-size: vw(15);
-		@include mq() {
-			padding: vwt(8);
-			font-size: vwt(16);
-		}
-		@include mq(lg) {
-			padding: px2Rem(8);
-			font-size: px2Rem(16);
-		}
-	}
-
-	&__input[type="text"], &__input[type="tel"], &__input[type="email"], textarea {
-		&:focus {
-			color: #575757;
-			border-radius: vw(5);
-			outline: solid 1px #575757;
-			background-color: beige;
-			@include mq() {
-				border-radius: vwt(5);
-			}
-			@include mq(lg) {
-				border-radius: px2Rem(5);
-			}
-		}
-	}
-
-	&__privacy-box {
-		overflow-x: hidden;
-		overflow-y: scroll;
-		height: vw(200);
-		margin-top: vw(5);
-		margin-bottom: vw(10);
-		padding: vw(10) vw(15);
-		text-align: left;
-		text-align: left;
-		color: rgba(87, 87, 87, 0.9);
-		border: solid 1px #575757;
-		background-color: #fff;
-		font-size: vw(15);
-		@include mq() {
-			height: vwt(200);
-			margin-top: vwt(5);
-			margin-bottom: vwt(10);
-			padding: vwt(15) vwt(25);
-			font-size: vwt(16);
-		}
-		@include mq(lg) {
-			height: px2Rem(200);
-			margin-top: px2Rem(5);
-			margin-bottom: px2Rem(10);
-			padding: px2Rem(15) px2Rem(25);
-			font-size: px2Rem(16);
-		}
-	}
-
-	&__privacy-text {
-		padding-bottom: vw(10);
-		@include mq() {
-			padding-bottom: vwt(10);
-		}
-		@include mq(lg) {
-			padding-bottom: px2Rem(10);
-		}
-	}
-
-	input[type="submit"] {
-		display: inline-block;
-		width: 100%;
-		max-width: vw(300);
-		margin-top: vw(20);
-		margin-bottom: vw(30);
-		padding: vw(12) vw(10);
-		transition: 0.2s linear;
-		color: #fff;
-		border: 1px solid #575757;
-		border-radius: vw(40);
-		background-image: linear-gradient(to right, #575757 0%, #575757 50%, #fff 50%, #fff 100%);
-		background-size: 200%;
-		font-size: vw(15);
-		font-weight: 600;
-		@include mq() {
-			max-width: vwt(300);
-			margin-top: vwt(30);
-			margin-bottom: vwt(30);
-			padding: vwt(12) vwt(10);
-			font-size: vwt(15);
-		}
-		@include mq(lg) {
-			max-width: px2Rem(300);
-			margin-top: px2Rem(30);
-			margin-bottom: px2Rem(30);
-			padding: px2Rem(12) px2Rem(10);
-			font-size: px2Rem(15);
-		}
-
-		&:hover {
-			opacity: 1;
-			color: #575757;
-			background-position: right;
-		}
-	}
-
-	input {
-		color: #575757;
-	}
-
-	.error {
-		color: #cc4a8b;
-		font-size: vw(1.6);
-		@include mq() {
-			font-size: vwt(1.6);
-		}
-		@include mq(lg) {
-			font-size: px2Rem(1.6);
+			border-radius: px2Rem(5);
 		}
 	}
 }
+
+.form__privacy-box {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-width: 100%;
+	height: vw(200);
+	margin-top: vw(5);
+	margin-bottom: vw(10);
+	padding: vw(10) vw(15);
+	text-align: left;
+	text-align: left;
+	color: rgba(87, 87, 87, 0.9);
+	border: solid 1px #575757;
+	background-color: #fff;
+	font-size: vw(15);
+	@include mq() {
+		height: vwt(200);
+		margin-top: vwt(5);
+		margin-bottom: vwt(10);
+		padding: vwt(15) vwt(25);
+		font-size: vwt(16);
+	}
+	@include mq(lg) {
+		height: px2Rem(200);
+		margin-top: px2Rem(5);
+		margin-bottom: px2Rem(10);
+		padding: px2Rem(15) px2Rem(25);
+		font-size: px2Rem(16);
+	}
+}
+
+.form__privacy-text {
+	padding-bottom: vw(10);
+	@include mq() {
+		padding-bottom: vwt(10);
+	}
+	@include mq(lg) {
+		padding-bottom: px2Rem(10);
+	}
+}
+
+input[type="submit"] {
+	display: inline-block;
+	width: 100%;
+	max-width: vw(300);
+	margin-top: vw(20);
+	margin-bottom: vw(30);
+	padding: vw(12) vw(10);
+	transition: 0.2s linear;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #575757;
+	border-radius: vw(40);
+	background-image: linear-gradient(to right, #575757 0%, #575757 50%, #fff 50%, #fff 100%);
+	background-size: 200%;
+	font-size: vw(15);
+	font-weight: 600;
+	@include mq() {
+		max-width: vwt(300);
+		margin-top: vwt(30);
+		margin-bottom: vwt(30);
+		padding: vwt(12) vwt(10);
+		font-size: vwt(15);
+	}
+	@include mq(lg) {
+		max-width: px2Rem(300);
+		margin-top: px2Rem(30);
+		margin-bottom: px2Rem(30);
+		padding: px2Rem(12) px2Rem(10);
+		font-size: px2Rem(15);
+	}
+}
+
+input[type="submit"]:hover {
+	opacity: 1;
+	color: #575757;
+	background-position: right;
+}
+
+.error {
+	color: #cc4a8b;
+	font-size: vw(1.6);
+	@include mq() {
+		font-size: vwt(1.6);
+	}
+	@include mq(lg) {
+		font-size: px2Rem(1.6);
+	}
+}
+
+// ローダーの配置を変更（送信ボタンを中央に配置）
+span.wpcf7-spinner {
+	display: none;
+}
+
+// Contact Form 7が追加する余計なスタイルをリセット
+.wpcf7-form-control, .wpcf7-form {
+	margin: 0;
+	padding: 0;
+}
+.wpcf7-form-control-wrap {
+	margin: 0;
+	padding: 0;
+}
+
+.form__label br {
+	display: none;
+}
+
+// textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
+// 	max-width: 100%;
+// 	margin: 0 auto;
+// 	padding: vw(8);
+// 	transition: 0.1s;
+// 	outline: solid 1px #575757;
+// 	background-color: #eeeeee;
+// 	font-size: vw(15);
+// 	@include mq() {
+// 		max-width: vwt(1200);
+// 		padding: vwt(8);
+// 		font-size: vwt(16);
+// 	}
+// 	@include mq(lg) {
+// 		max-width: px2Rem(1200);
+// 		padding: px2Rem(8);
+// 		font-size: px2Rem(16);
+// 	}
+// }
+
+// input#send.wpcf7-form-control.wpcf7-submit.has-spinner.send {
+// 	display: inline-block;
+// 	width: 100%;
+// 	max-width: vw(300);
+// 	margin-top: vw(20);
+// 	margin-bottom: vw(30);
+// 	padding: vw(12) vw(10);
+// 	transition: 0.2s linear;
+// 	text-align: center;
+// 	color: #fff;
+// 	border: 1px solid #575757;
+// 	border-radius: vw(40);
+// 	background-image: linear-gradient(to right, #575757 0%, #575757 50%, #fff 50%, #fff 100%);
+// 	background-size: 200%;
+// 	font-size: vw(15);
+// 	font-weight: 600;
+// 	@include mq() {
+// 		max-width: vwt(300);
+// 		margin-top: vwt(30);
+// 		margin-bottom: vwt(30);
+// 		padding: vwt(12) vwt(10);
+// 		font-size: vwt(15);
+// 	}
+// 	@include mq(lg) {
+// 		max-width: px2Rem(300);
+// 		margin-top: px2Rem(30);
+// 		margin-bottom: px2Rem(30);
+// 		padding: px2Rem(12) px2Rem(10);
+// 		font-size: px2Rem(15);
+// 	}
+// }
+// input#send.wpcf7-form-control.wpcf7-submit.has-spinner.send:hover {
+// 	opacity: 1;
+// 	color: #575757;
+// 	background-position: right;
+// }
 
 /* -------------------- 404-------------------- */
 

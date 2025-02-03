@@ -228,14 +228,14 @@
                 <h2 class="contact__title">Contact</h2>
                 <div class="contact__wrapper">
                     <!-- Form -->
-                     
-                    <form class="form">
+                    <?php echo do_shortcode('[contact-form-7 id="02ff249" title="Contact"]'); ?>
+                    <!-- <form class="form">
                         <div class="form__item">
                             <label for="name" class="form__label">
                                 <span class="form__must">Your name <span class="magenta">*</span></span>
                             </label>
                             <div class="form__input-wrapper">
-                                <input type="text" name="name" id="name" placeholder="Sample: Mayumi Sakaguchi" class="form__input">
+                                <input type="text" name="name" id="name" placeholder="Ex. Mayumi Sakaguchi" class="form__input">
                             </div>
                         </div>
                         <div class="form__item">
@@ -243,7 +243,7 @@
                                 <span class="form__must">E-mail address <span class="magenta">*</span></span>
                             </label>
                             <div class="form__input-wrapper">
-                                <input type="email" name="email" id="email" placeholder="Sample: mayumi.sakaguchi@sample.com" class="form__input">
+                                <input type="email" name="email" id="email" placeholder="Ex. mayumi.sakaguchi@sample.com" class="form__input">
                             </div>
                         </div>
                         <div class="form__item">
@@ -259,7 +259,7 @@
                                 <span class="form__must">Tel<span class="magenta">*</span></span>
                             </label>
                             <div class="form__input-wrapper">
-                                <input type="tel" name="tel" id="tel" placeholder="Sample: 090-1234-5678" class="form__input">
+                                <input type="tel" name="tel" id="tel" placeholder="Ex. 090-1234-5678" class="form__input">
                             </div>
                         </div>
                         <div class="form__item">
@@ -312,7 +312,7 @@
                         <div class="form__submit-button">
                             <input type="submit" value="SEND" class="form__input">
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </section>

@@ -228,7 +228,8 @@
             <h2 class="contact__title">お問い合わせ</h2>
             <div class="contact__wrapper">
                 <!-- Form -->
-                <form class="form">
+                <?php echo do_shortcode('[contact-form-7 id="872e429" title="お問い合わせ"]'); ?>
+                <!-- <form class="form">
                     <div class="form__item">
                         <label for="name" class="form__label">
                             <span class="form__must">お名前 <span class="magenta">*</span></span>
@@ -311,7 +312,7 @@
                     <div class="form__submit-button">
                         <input type="submit" value="送信する" class="form__input">
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>

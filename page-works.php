@@ -85,7 +85,7 @@
                         </a>
                     </div>
                     <div class="works__box">
-                        <a href="<?php echo home_url(); ?>/work09" class="works__link lp>
+                        <a href="<?php echo home_url(); ?>/work09" class="works__link lp">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
                                 <li class="works__list-item">Coding</li>
