@@ -229,10 +229,11 @@
             <div class="contact__wrapper">
                 <!-- Form -->
                 <?php echo do_shortcode('[contact-form-7 id="872e429" title="お問い合わせ"]'); ?>
+                <!-- <?php echo do_shortcode('[contact-form-7 id="ac7a215" title="お問い合わせフォーム"]'); ?> -->
                 <!-- <form class="form">
                     <div class="form__item">
                         <label for="name" class="form__label">
-                            <span class="form__must">お名前 <span class="magenta">*</span></span>
+                            <span class="form__required">お名前 <span class="asterisk">*</span></span>
                         </label>
                         <div class="form__input-wrapper">
                             <input type="text" name="name" id="name" placeholder="例: 坂口 真由美" class="form__input">
@@ -240,7 +241,7 @@
                     </div>
                     <div class="form__item">
                         <label for="email" class="form__label">
-                            <span class="form__must">メールアドレス <span class="magenta">*</span></span>
+                            <span class="form__required">メールアドレス <span class="asterisk">*</span></span>
                         </label>
                         <div class="form__input-wrapper">
                             <input type="email" name="email" id="email" placeholder="例: mayumi.sakaguchi@sample.com" class="form__input">
@@ -248,7 +249,7 @@
                     </div>
                     <div class="form__item">
                         <label for="email" class="form__label">
-                            <span class="form__must">メールアドレス （確認用）<span class="magenta">*</span></span>
+                            <span class="form__required">メールアドレス （確認用）<span class="asterisk">*</span></span>
                         </label>
                         <div class="form__input-wrapper">
                             <input type="email" name="emailCfm" id="email2" class="form__input">
@@ -256,7 +257,7 @@
                     </div>
                     <div class="form__item">
                         <label for="tel" class="form__label">
-                            <span class="form__must">電話番号<span class="magenta">*</span></span>
+                            <span class="form__required">電話番号<span class="asterisk">*</span></span>
                         </label>
                         <div class="form__input-wrapper">
                             <input type="tel" name="tel" id="tel" placeholder="例: 090-1234-5678" class="form__input">
@@ -280,14 +281,14 @@
                     </div>
                     <div class="form__item">
                         <label for="inquiry" class="form__label">
-                            <span class="form__must">お問い合わせ内容<span class="magenta">*</span></span>
+                            <span class="form__required">お問い合わせ内容<span class="asterisk">*</span></span>
                         </label>
                         <div class="form__input-wrapper form__inquiry-box">
                             <textarea name="inquiry" id="inquiry" cols="30" rows="10" class="form__textarea"></textarea>
                         </div>
                     </div>
                     <div class="form__item form__privacy-wrapper">
-                        <span class="form__must">※以下のプライバシーポリシーをご確認の上、以下の送信ボタンをクリックしてください。<span class="magenta">*</span></span>
+                        <span class="form__required">※以下のプライバシーポリシーをご確認の上、以下の送信ボタンをクリックしてください。<span class="asterisk">*</span></span>
                     </div>
                     <div class="form__privacy-box">
                         <p class="form__privacy-text">
@@ -314,7 +315,22 @@
                     </div>
                 </form> -->
             </div>
+            <p>
+                This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+            </p>
         </div>
     </section>
 
-    <?php get_footer(); ?>
+    <!-- To top -->
+
+    <div id="back-to-top" class="back-to-top">
+        <div class="back-to-top__container">
+            <a href="#" class="back-to-top__link">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/to_top_orange.svg" alt="">
+            </a>
+        </div>
+    </div>
+
+</main>
+
+<?php get_footer(); ?>

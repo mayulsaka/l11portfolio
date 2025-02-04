@@ -144,4 +144,16 @@
 
     </section>
 
-    <?php get_footer(); ?>
+    <!-- To top -->
+
+    <div id="back-to-top" class="back-to-top">
+        <div class="back-to-top__container">
+            <a href="#" class="back-to-top__link">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/to_top_orange.svg" alt="">
+            </a>
+        </div>
+    </div>
+
+</main>
+
+<?php get_footer(); ?>

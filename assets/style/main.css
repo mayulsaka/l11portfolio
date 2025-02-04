@@ -1754,6 +1754,7 @@ li {
 }
 .news-latest .new {
   width: 17.9487179487vw;
+  color: #ffd065;
 }
 @media screen and (min-width: 768px) {
   .news-latest .new {
@@ -1766,23 +1767,23 @@ li {
   }
 }
 .news-latest .blinking {
-  -webkit-animation: blink 1s infinite alternate;
-          animation: blink 1s infinite alternate;
+  -webkit-animation: blink 3s ease-in-out infinite alternate;
+          animation: blink 3s ease-in-out infinite alternate;
 }
 @-webkit-keyframes blink {
   0% {
-    color: #ffd065;
+    color: #fff;
   }
   100% {
-    color: #fff;
+    color: #ffd065;
   }
 }
 @keyframes blink {
   0% {
-    color: #ffd065;
+    color: #fff;
   }
   100% {
-    color: #fff;
+    color: #ffd065;
   }
 }
 .news-latest__news-btn {
@@ -2226,7 +2227,7 @@ li {
   }
 }
 
-.form__must {
+.form__required {
   display: block;
   margin-top: 3.8461538462vw;
   margin-bottom: 1.2820512821vw;
@@ -2235,14 +2236,14 @@ li {
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
-  .form__must {
+  .form__required {
     margin-top: 1.25vw;
     margin-bottom: 0.4166666667vw;
     font-size: 1.3333333333vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .form__must {
+  .form__required {
     margin-top: 0.9375rem;
     margin-bottom: 0.3125rem;
     font-size: 1rem;
@@ -2309,50 +2310,6 @@ input[type=text], input[type=tel], input[type=email], input[type=email2], input[
   }
 }
 
-textarea {
-  max-width: 100%;
-  padding: 2.5641025641vw 3.8461538462vw;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  outline: solid 1px #575757;
-  background-color: #eeeeee;
-  font-size: 3.8461538462vw;
-}
-@media screen and (min-width: 768px) {
-  textarea {
-    padding: 0.8333333333vw 1.25vw;
-    font-size: 1.3333333333vw;
-  }
-}
-@media screen and (min-width: 1200px) {
-  textarea {
-    padding: 0.625rem 0.9375rem;
-    font-size: 1rem;
-  }
-}
-
-textarea {
-  max-width: 100%;
-  padding: 2.0512820513vw;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  outline: solid 1px #575757;
-  background-color: #eeeeee;
-  font-size: 3.8461538462vw;
-}
-@media screen and (min-width: 768px) {
-  textarea {
-    padding: 0.6666666667vw;
-    font-size: 1.3333333333vw;
-  }
-}
-@media screen and (min-width: 1200px) {
-  textarea {
-    padding: 0.5rem;
-    font-size: 1rem;
-  }
-}
-
 input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=email2]:focus, input[type=company]:focus, input[type=department]:focus, textarea:focus {
   color: #575757;
   border-radius: 1.2820512821vw;
@@ -2367,6 +2324,24 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 @media screen and (min-width: 1200px) {
   input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=email2]:focus, input[type=company]:focus, input[type=department]:focus, textarea:focus {
     border-radius: 0.3125rem;
+  }
+}
+
+.asterisk {
+  color: #ffcc00;
+}
+
+textarea {
+  padding: 2.5641025641vw 3.8461538462vw;
+}
+@media screen and (min-width: 768px) {
+  textarea {
+    padding: 0.8333333333vw 1.25vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  textarea {
+    padding: 0.625rem 0.9375rem;
   }
 }
 
@@ -2462,21 +2437,6 @@ input[type=submit]:hover {
   background-position: right;
 }
 
-.error {
-  color: #cc4a8b;
-  font-size: 0.4102564103vw;
-}
-@media screen and (min-width: 768px) {
-  .error {
-    font-size: 0.1333333333vw;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .error {
-    font-size: 0.1rem;
-  }
-}
-
 span.wpcf7-spinner {
   display: none;
 }
@@ -2493,6 +2453,24 @@ span.wpcf7-spinner {
 
 .form__label br {
   display: none;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
+  padding: 2.5641025641vw 3.8461538462vw;
+}
+@media screen and (min-width: 768px) {
+  textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
+    padding: 0.8333333333vw 1.25vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
+    padding: 0.625rem 0.9375rem;
+  }
 }
 
 /* -------------------- 404-------------------- */

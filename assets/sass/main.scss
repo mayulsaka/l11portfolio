@@ -1458,6 +1458,7 @@ li {
 
 	.new {
 		width: vw(70);
+		color: #ffd065;
 		@include mq() {
 			width: vwt(70);
 		}
@@ -1467,16 +1468,17 @@ li {
 	}
 
 	.blinking {
-		animation: blink 1s infinite alternate;
+		// animation: blink 1s infinite alternate;
+		// animation: blinkEffect 1s ease-in-out infinite alternate;
+		animation: blink 3s ease-in-out infinite alternate;
 	}
 
 	@keyframes blink {
 		0% {
-			color: #ffd065;
-		}
-
-		100% {
 			color: #fff;
+		}
+		100% {
+			color: #ffd065;
 		}
 	}
 
@@ -1825,7 +1827,7 @@ li {
 	}
 }
 
-.form__must {
+.form__required {
 	display: block;
 	margin-top: vw(15);
 	margin-bottom: vw(5);
@@ -1891,39 +1893,22 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="email2"]
 	}
 }
 
-textarea {
-	max-width: 100%;
-	padding: vw(10) vw(15);
-	transition: 0.1s;
-	outline: solid 1px #575757;
-	background-color: #eeeeee;
-	font-size: vw(15);
-	@include mq() {
-		padding: vwt(10) vwt(15);
-		font-size: vwt(16);
-	}
-	@include mq(lg) {
-		padding: px2Rem(10) px2Rem(15);
-		font-size: px2Rem(16);
-	}
-}
-
-textarea {
-	max-width: 100%;
-	padding: vw(8);
-	transition: 0.1s;
-	outline: solid 1px #575757;
-	background-color: #eeeeee;
-	font-size: vw(15);
-	@include mq() {
-		padding: vwt(8);
-		font-size: vwt(16);
-	}
-	@include mq(lg) {
-		padding: px2Rem(8);
-		font-size: px2Rem(16);
-	}
-}
+// textarea {
+// 	max-width: 100%;
+// 	padding: vw(10) vw(15);
+// 	transition: 0.1s;
+// 	outline: solid 1px #575757;
+// 	background-color: #eeeeee;
+// 	font-size: vw(15);
+// 	@include mq() {
+// 		padding: vwt(10) vwt(15);
+// 		font-size: vwt(16);
+// 	}
+// 	@include mq(lg) {
+// 		padding: px2Rem(10) px2Rem(15);
+// 		font-size: px2Rem(16);
+// 	}
+// }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="email2"], input[type="company"], input[type="department"], textarea {
 	&:focus {
@@ -1937,6 +1922,20 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="email2"]
 		@include mq(lg) {
 			border-radius: px2Rem(5);
 		}
+	}
+}
+
+.asterisk {
+	color: #ffcc00;
+}
+
+textarea {
+	padding: vw(10) vw(15);
+	@include mq() {
+		padding: vwt(10) vwt(15);
+	}
+	@include mq(lg) {
+		padding: px2Rem(10) px2Rem(15);
 	}
 }
 
@@ -2018,16 +2017,16 @@ input[type="submit"]:hover {
 	background-position: right;
 }
 
-.error {
-	color: #cc4a8b;
-	font-size: vw(1.6);
-	@include mq() {
-		font-size: vwt(1.6);
-	}
-	@include mq(lg) {
-		font-size: px2Rem(1.6);
-	}
-}
+// .error {
+// 	color: #cc4a8b;
+// 	font-size: vw(1.6);
+// 	@include mq() {
+// 		font-size: vwt(1.6);
+// 	}
+// 	@include mq(lg) {
+// 		font-size: px2Rem(1.6);
+// 	}
+// }
 
 // ローダーの配置を変更（送信ボタンを中央に配置）
 span.wpcf7-spinner {
@@ -2046,6 +2045,20 @@ span.wpcf7-spinner {
 
 .form__label br {
 	display: none;
+}
+
+.grecaptcha-badge {
+	visibility: hidden;
+}
+
+textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
+	padding: vw(10) vw(15);
+	@include mq() {
+		padding: vwt(10) vwt(15);
+	}
+	@include mq(lg) {
+		padding: px2Rem(10) px2Rem(15);
+	}
 }
 
 // textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {

@@ -50,34 +50,19 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="<?php echo home_url(); ?>#" target="_blank">
+                    <!-- URL -->
+                    <a href="<?php the_field('url'); ?>">
                         <ul class="work-details__list">
-                            <li class="work-details__list-item limited">Limited access</li>
-                        </ul>
-                        <h2 class="work-details__list-title"><?php the_field('title'); ?></h2>
-                        <div class="work-details__image-box">
-                            <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image"> -->
-                            <?php
-                            $profileImage = get_field('thumbnail_1');
-                            if (!empty($profileImage)): ?>
-                                <img src="<?php echo esc_url($profileImage['url']); ?>" alt="<?php echo esc_attr($profileImage['alt']); ?>" />
-                            <?php endif; ?>
-                            <?php
-                            $profileImage = get_field('thumbnail_2');
-                            if (!empty($profileImage)): ?>
-                                <img src="<?php echo esc_url($profileImage['url']); ?>" alt="<?php echo esc_attr($profileImage['alt']); ?>" />
-                            <?php endif; ?>
-                        </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">
+                            <li class="work-details__list-item limited">
+                                <!-- 状態（新着、限定公開） -->
                                 <?php
-                                $hobbies = get_field('role');
-                                if ($hobbies): ?>
+                                $status = get_field('status');
+                                if ($status): ?>
                                     <ul>
-                                        <?php foreach ($hobbies as $hobby): ?>
+                                        <?php foreach ($status as $status): ?>
                                             <li>
                                                 <?php
-                                                echo $hobby['label'];
+                                                echo $status['label'];
                                                 ?>
                                             </li>
                                         <?php endforeach; ?>
@@ -85,20 +70,47 @@
                                         <?php endif; ?>
                             </li>
                         </ul>
+                        <!-- タイトル -->
+                        <h2 class="work-details__list-title"><?php the_field('title'); ?></h2>
+                        <div class="work-details__image-box">
+                        <!-- サムネ画像１ -->
+                        <img src="<?php the_field('thumbnail_1'); ?>" >
+                        <!-- サムネ画像２ -->
+                        <img src="<?php the_field('thumbnail_2'); ?>" >
+                        </div>
+                        <ul class="work-details__list">
+                            <li class="work-details__list-item">
+                            <li class="works__list-item">
+                                <!-- 担当領域 -->
+                                <?php
+                                $role = get_field('role');
+                                if ($role): ?>
+                                    <ul>
+                                        <?php foreach ($role as $role): ?>
+                                            <li>
+                                                <?php
+                                                echo $role['label'];
+                                                ?>
+                                            </li>
+                                        <?php endforeach; ?>
+                                        <ul>
+                                        <?php endif; ?>
+                        </ul>
                     </a>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Work type:</h3>
                         <span class="work-details__description-text">
+                            <!-- 制作物 -->
                             <?php
-                            $hobbies = get_field('worktype');
-                            if ($hobbies): ?>
+                            $worktype = get_field('worktype');
+                            if ($worktype): ?>
                                 <ul>
-                                    <?php foreach ($hobbies as $hobby): ?>
+                                    <?php foreach ($worktype as worktype): ?>
                                         <li>
                                             <?php
-                                            echo $hobby['label'];
+                                            echo $worktype['label'];
                                             ?>
                                         </li>
                                     <?php endforeach; ?>
@@ -107,91 +119,53 @@
                         </span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:
-                            <?php
-                            $link = get_field('link');
-                            if ($link):
-                                // URLを取得
-                                $linkUrl = $link['url'];
-                                // タイトルを取得
-                                $linkTitle = $link['title'];
-                                // 新しいタブで開く
-                                $linkTarget = $link['target'];
-                            ?>
-                                <a class="button" href="<?php echo esc_url($linkUrl); ?>" target="<?php echo esc_attr($linkTarget); ?>"><?php echo esc_html($linkTitle); ?></a>
-                            <?php endif; ?>
+                        <!-- URL -->
+                        <h3 class="work-details__description-title">URL:<a href="<?php the_field('url'); ?>"><?php the_field('url'); ?></a>
                         </h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item--remark">
-                                <a href="<?php echo home_url(); ?>#" target="_blank">
-                                    <span class="work-details__remark">
-                                        <?php
-                                        $link = get_field('url');
-                                        if ($link):
-                                            $linkUrl = $link['url'];
-                                            $linkTitle = $link['title'];
-                                            $linkTarget = $link['target'];
-                                        ?>
-                                            <a class="button" href="<?php echo esc_url($linkUrl); ?>" target="<?php echo esc_attr($linkTarget); ?>"><?php echo esc_html($linkTitle); ?></a>
-                                        <?php endif; ?>
-                                    </span></a>
-                            </li>
-                            <li class="work-details__description-list-item--remark">
+                                <!-- 注記１ -->
                                 <span class="work-details__remark"><?php the_field('remark_1'); ?></span>
                             </li>
                         </ul>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Production period:</h3>
+                        <!-- 制作期間 -->
                         <span class="work-details__description-text"><?php the_field('schedule'); ?></span>
-                    </div>
-                    <div class="work-details__description">
-                        <h3 class="work-details__description-title">Role:</h3>
-                        <span class="work-details__description-text">
-                            <?php
-                            $hobbies = get_field('role');
-                            if ($hobbies): ?>
-                                <ul>
-                                    <?php foreach ($hobbies as $hobby): ?>
-                                        <li>
-                                            <?php
-                                            echo $hobby['label'];
-                                            ?>
-                                        </li>
-                                    <?php endforeach; ?>
-                                    <ul>
-                                    <?php endif; ?>
-                        </span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Skills:</h3>
                         <span class="work-details__description-text">
-                        <?php
-                            $hobbies = get_field('skills');
-                            if ($hobbies): ?>
+                            <!-- 使用スキル -->
+                            <?php
+                            $skills = get_field('skills');
+                            if ($skills): ?>
                                 <ul>
-                                    <?php foreach ($hobbies as $hobby): ?>
+                                    <?php foreach ($skills as $skills): ?>
                                         <li>
                                             <?php
-                                            echo $hobby['label'];
+                                            echo $skills['label'];
                                             ?>
                                         </li>
                                     <?php endforeach; ?>
                                     <ul>
                                     <?php endif; ?>
-                        </span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Goal:</h3>
+                        <!-- ゴール -->
                         <span class="work-details__description-text"><?php the_field('goal'); ?>.</span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Approach:</h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item">
+                                <!-- 工夫した点 -->
                                 <?php the_field('approach'); ?>
                             </li>
                         </ul>
+                        <!-- 注記２ -->
                         <span class="work-details__remark"><?php the_field('remark_2'); ?></span>
                     </div>
                 </div>
@@ -199,9 +173,8 @@
         </div>
 
         <div class="pagination">
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/work-10">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/work-01">»</a>
-            <!-- <span class="next page-numbers">»</span> -->
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/">»</a>
         </div>
 
         <div class="view-more">
@@ -212,4 +185,16 @@
 
     </section>
 
-    <?php get_footer(); ?>
+    <!-- To top -->
+
+    <div id="back-to-top" class="back-to-top">
+        <div class="back-to-top__container">
+            <a href="#" class="back-to-top__link">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/to_top_orange.svg" alt="">
+            </a>
+        </div>
+    </div>
+
+</main>
+
+<?php get_footer(); ?>
