@@ -62,8 +62,8 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -79,8 +79,8 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -96,8 +96,8 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -113,8 +113,8 @@
                             </ul>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -136,8 +136,8 @@
                             <p class="works__list-title">Landing page (AI translation school)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -159,8 +159,8 @@
                             <p class="works__list-title">Website (portfolio)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -173,8 +173,8 @@
                             <p class="works__list-title">Landing page (Web consulting)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -187,8 +187,8 @@
                             <p class="works__list-title">Graphic (Japanese dining bar menu)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -202,8 +202,8 @@
                             <p class="works__list-title">Banner (Japanese dining bar to open)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -217,8 +217,8 @@
                             <p class="works__list-title">Banner (food brand's campaign)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>
@@ -232,8 +232,8 @@
                             <p class="works__list-title">Video thumbnail (side business ad)</p>
                             <ul class="works__see-more">
                                 <li class="works__see-more">See detail</li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                                <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                             </ul>
                         </a>
                     </div>

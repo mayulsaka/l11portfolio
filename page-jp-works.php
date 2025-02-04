@@ -62,8 +62,8 @@
                         </ul>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -79,8 +79,8 @@
                         </ul>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -96,8 +96,8 @@
                         </ul>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -113,8 +113,8 @@
                         </ul>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -136,8 +136,8 @@
                         <p class="works__list-title">ランディングページ（AI翻訳スクール）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -159,8 +159,8 @@
                         <p class="works__list-title">ウェブサイト（ポートフォリオ）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -173,8 +173,8 @@
                         <p class="works__list-title">ランディングページ（Webコンサルティング）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -187,8 +187,8 @@
                         <p class="works__list-title">グラフィック（居酒屋メニュー）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -202,8 +202,8 @@
                         <p class="works__list-title">バナー（居酒屋オープン告知）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -217,8 +217,8 @@
                         <p class="works__list-title">バナー（食品キャンペーン告知）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>
@@ -232,8 +232,8 @@
                         <p class="works__list-title">動画サムネイル（副業ノウハウ）</p>
                         <ul class="works__see-more">
                             <li class="works__see-more">詳細を見る</li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
-                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.svg" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
+                            <li class="works__arrow"><img class="works__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                         </ul>
                     </a>
                 </div>

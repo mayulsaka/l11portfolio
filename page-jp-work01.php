@@ -131,8 +131,8 @@
 
         <div class="pagination">
             <!-- <span class="prev page-numbers">«</span> -->
-            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work-11">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work-02">»</a>
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work11">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work02">»</a>
         </div>
 
         <div class="view-more">
