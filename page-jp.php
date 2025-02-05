@@ -61,9 +61,9 @@
                                 <li class="swiper-slide__work-list-item">WordPress化</li>
                             </ul>
                             <h3 class="swiper-slide__work-title">ランディングページ（AI翻訳スクール）</h3>
-                            <ul class="swiper-slide__work-list">
+                            <!-- <ul class="swiper-slide__work-list">
                                 <li class="swiper-slide__work-list-item limited">限定公開</li>
-                            </ul>
+                            </ul> -->
                         </a>
                     </div>
                     <div class="swiper-slide">
@@ -316,7 +316,9 @@
                 </form> -->
             </div>
             <p>
-                This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+                このサイトはreCAPTCHAによって保護されており、Googleの
+                <a href="https://policies.google.com/privacy" target="_blank">プライバシーポリシー</a>と
+                <a href="https://policies.google.com/terms" target="_blank">利用規約</a>が適用されます。
             </p>
         </div>
     </section>

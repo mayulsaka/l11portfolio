@@ -37,76 +37,75 @@
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item">Work details</li>
+                <li class="breadcrumb__item">制作物概要</li>
             </ol>
         </div>
     </div>
-        <!-- Works works -->
+    <!-- Works works -->
 
-        <section id="work-details" class="work-details">
-            <div class="work-details__container">
-                <h1 class="work-details__title">制作物紹介</h1>
+    <section id="work-details" class="work-details">
+        <div class="work-details__container">
+            <h1 class="work-details__title">制作物概要</h1>
 
-                <div class="work-details__box">
-                    <div class="work-details__box-link">
-                        <a href="https://mayumi-sakaguchi-dev.com/work_04_org.jpg" class="work-details__link" target="_blank">
-                            <h2 class="work-details__list-title">グラフィック（居酒屋メニュー）</h2>
-                            <div class="work-details__image-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04_org_A.jpg" alt="" class="work-details__image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04_org_B.jpg" alt="" class="work-details__image">
-                            </div>
-                            <ul class="work-details__list">
-                                <li class="work-details__list-item">デザイン</li>
-                            </ul>
-                        </a>
+            <div class="work-details__box">
+                <div class="work-details__box-link">
+                    <h2 class="work-details__list-title">グラフィック（居酒屋メニュー）</h2>
+                    <a href="https://mayumi-sakaguchi-dev.com/work_04_org.jpg" class="work-details__link" target="_blank">
+                        <div class="work-details__image-box">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04_org_A.jpg" alt="" class="work-details__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04_org_B.jpg" alt="" class="work-details__image">
+                        </div>
+                    </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">デザイン</li>
+                    </ul>
+                </div>
+                <div class="work-details__box-description">
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">制作物:</h3>
+                        <span class="work-details__description-text">グラフィック（居酒屋メニュー）</span>
                     </div>
-                    <div class="work-details__box-description">
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">制作物:</h3>
-                            <span class="work-details__description-text">グラフィック（居酒屋メニュー）</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">URL:</h3>
-                            <span class="work-details__description-text">無し</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">制作期間: </h3>
-                            <span class="work-details__description-text">2024/04（3日間）</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">担当領域: </h3>
-                            <span class="work-details__description-text">デザイン</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">使用スキル </h3>
-                            <span class="work-details__description-text">Photoshop</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">ゴール: </h3>
-                            <span class="work-details__description-text">洗練された雰囲気の居酒屋のメニューを、日本文化や日本食の美を伝える形でデザイン。</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">ターゲット: </h3>
-                            <span class="work-details__description-text">落ち着いた雰囲気の居酒屋でお酒や日本食を楽しみたい、18歳以上の日本人および外国籍のお客様。</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">工夫した点:</h3>
-                            <ul class="work-details__description-list">
-                                <li class="work-details__description-list-item">
-                                    オレンジを基調に温かく落ち着いた雰囲気を演出し、食べ物の画像が引き立つ形に仕上げました。
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    和風の雰囲気を壊さないよう日本語のみのメニューを作成し、一方で外国籍のお客様も注文しやすいようにすべての食べ物の写真を含みました。
-                                    等。
-                                </li>
-                            </ul>
-                        </div>
-                        <span class="work-details__remark">※こちらの居酒屋メニューはスクール課題として作成した架空のものであり、実在いたしません。</span>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">URL:</h3>
+                        <span class="work-details__description-text">無し</span>
                     </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">制作期間: </h3>
+                        <span class="work-details__description-text">2024/04（3日間）</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">担当領域: </h3>
+                        <span class="work-details__description-text">デザイン</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">使用スキル: </h3>
+                        <span class="work-details__description-text">Photoshop</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">ゴール: </h3>
+                        <span class="work-details__description-text">洗練された雰囲気の居酒屋のメニューを、日本文化や日本食の美を伝える形でデザイン。</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">ターゲット: </h3>
+                        <span class="work-details__description-text">落ち着いた雰囲気の居酒屋でお酒や日本食を楽しみたい、18歳以上の日本人および外国籍のお客様。</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">工夫した点:</h3>
+                        <ul class="work-details__description-list">
+                            <li class="work-details__description-list-item">
+                                オレンジを基調に温かく落ち着いた雰囲気を演出し、食べ物の画像が引き立つ形に仕上げました。
+                            </li>
+                            <li class="work-details__description-list-item">
+                                和風の雰囲気を壊さないよう日本語のみのメニューを作成し、一方で外国籍のお客様も注文しやすいようにすべての食べ物の写真を含みました。
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="work-details__remark">※こちらの居酒屋メニューはスクール課題として作成した架空のものであり、実在いたしません。</span>
                 </div>
             </div>
+        </div>
 
-            <div class="pagination">
+        <div class="pagination">
             <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work03">«</a>
             <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work05">»</a>
         </div>

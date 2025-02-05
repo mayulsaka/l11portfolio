@@ -50,18 +50,18 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item limited">Limited access</li>
+                    </ul>
+                    <h2 class="work-details__list-title">Website (Agricultural equipment maker)</h2>
                     <a href="<?php echo home_url(); ?>#" target="_blank">
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item limited">Limited access</li>
-                        </ul>
-                        <h2 class="work-details__list-title">Website (Agricultural equipment maker)</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">Coding</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">Coding</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -109,7 +109,6 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 Created an accordion wish show/hide functionality (using jQuery).
-                                Etc.
                             </li>
                         </ul>
                     </div>

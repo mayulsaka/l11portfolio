@@ -51,16 +51,16 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <h2 class="work-details__list-title">Video thumbnail (side business ad)</h2>
                     <a href="https://mayumi-sakaguchi-dev.com/work_07_org.jpg" class="work-details__link" target="_blank">
-                        <h2 class="work-details__list-title">Video thumbnail (side business ad)</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07_org.jpg" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">Writing</li>
-                            <li class="work-details__list-item">Design</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">Writing</li>
+                        <li class="work-details__list-item">Design</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -102,7 +102,6 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 Tried to use illustration images that can effectively transmit key subject at the first sight.
-                                Etc.
                             </li>
                         </ul>
                     </div>
@@ -113,7 +112,7 @@
 
         <div class="pagination">
             <a class="prev page-numbers" href="<?php echo home_url(); ?>/work06">«</a>
-            <a class="next page-numbers" href="<?php echo home_url(); ?>/work07">»</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/work08">»</a>
         </div>
 
         <div class="view-more">

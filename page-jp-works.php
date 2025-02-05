@@ -43,14 +43,16 @@
     <section id="works" class="works">
         <div class="works__container">
             <h1 class="works__title">制作実績</h1>
-            <ul class="works__nav">
-                <li class="works__nav-item works__current"><a href="<?php echo home_url(); ?>" class="works__nav-link all">すべて</a></li>
-                <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link lp">ランディングページ</a></li>
-                <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link website">ウェブサイト</a></li>
-                <li class="works__nav-item"><a href="<?php echo home_url(); ?>" class="works__nav-link other">その他</a></li>
+
+            <ul class="filter-list">
+                <li data-filter="all" class="nav-item is-active"><span>すべて</span></li>
+                <li data-filter="cat1" class="nav-item"><span>ウェブサイト</span></li>
+                <li data-filter="cat2" class="nav-item"><span>ランディングページ</span></li>
+                <li data-filter="cat3" class="nav-item"><span>その他</span></li>
             </ul>
-            <div class="works__display">
-                <div class="works__box">
+
+            <div class="filter-item">
+                <div class="works__box" data-item="cat1">
                     <a href="<?php echo home_url(); ?>/jp-work11" class="works__link website">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -67,7 +69,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat2">
                     <a href="<?php echo home_url(); ?>/jp-work10" class="works__link lp">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -84,7 +86,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat2">
                     <a href="<?php echo home_url(); ?>/jp-work09" class="works__link lp">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -101,7 +103,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat2">
                     <a href="<?php echo home_url(); ?>/jp-work08" class="works__link lp">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -118,7 +120,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat2">
                     <a href="<?php echo home_url(); ?>/jp-work01" class="works__link lp">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_01.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -141,7 +143,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat1">
                     <a href="<?php echo home_url(); ?>/jp-work02" class="works__link website">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_02.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -164,7 +166,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat2">
                     <a href="<?php echo home_url(); ?>/jp-work03" class="works__link lp">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_03.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -178,7 +180,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat3">
                     <a href="<?php echo home_url(); ?>/jp-work04" class="works__link other">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_04.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -192,7 +194,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat3">
                     <a href="<?php echo home_url(); ?>/jp-work05" class="works__link other">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_05.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -207,7 +209,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat3">
                     <a href="<?php echo home_url(); ?>/jp-work06" class="works__link other">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -222,7 +224,7 @@
                         </ul>
                     </a>
                 </div>
-                <div class="works__box">
+                <div class="works__box" data-item="cat3">
                     <a href="<?php echo home_url(); ?>/jp-work07" class="works__link other">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_07.png" class="works__image" alt="">
                         <ul class="works__list">
@@ -239,16 +241,18 @@
                 </div>
             </div>
 
-            <!-- <div class="pagination">
-                    <span class="prev page-numbers">«</span>
-                    <span class="pagination__page-numbers current">1</span>
-                    <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work_02.html">2</a>
-                    <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work_03.html">3</a>
-                    <a class="next page-numbers" href="<?php echo home_url(); ?>/jp/works/work_02.html">»</a>
-                </div> -->
-
         </div>
     </section>
+
+    <!-- Pagination -->
+
+                <!-- <div class="pagination">
+                <a class="pagination__page-numbers prev" href="<?php echo home_url(); ?>/jp/works/work01.html">«</a>
+                <span class="pagination__page-numbers current">1</span>
+                <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work02.html">2</a>
+                <a class="pagination__page-numbers" href="<?php echo home_url(); ?>/jp/works/work03.html">3</a>
+                <a class="pagination__page-numbers next" href="<?php echo home_url(); ?>/jp/works/work03.html">»</a>
+            </div> -->
 
     <!-- To top -->
 

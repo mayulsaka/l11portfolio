@@ -37,7 +37,7 @@
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item">Work details</li>
+                <li class="breadcrumb__item">制作物概要</li>
             </ol>
         </div>
     </div>
@@ -46,22 +46,22 @@
 
     <section id="work-details" class="work-details">
         <div class="work-details__container">
-            <h1 class="work-details__title">制作物紹介</h1>
+            <h1 class="work-details__title">制作物概要</h1>
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item limited">限定公開</li>
+                    </ul>
+                    <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
                     <a href="<?php echo home_url(); ?>" target="_blank">
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item limited">限定公開</li>
-                        </ul>
-                        <h2 class="work-details__list-title">企業Webサイト（農業機器メーカー）</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">コーディング</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">コーディング</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -69,7 +69,7 @@
                         <span class="work-details__description-text">企業Webサイト（農業機器メーカー）</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark"></a></h3>
+                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>" target="_blank"><span class="work-details__remark">#</a></h3>
                         <ul class="work-details__description-list">
                             <li class="work-details__description-list-item--remark">
                                 <span class="work-details__remark">※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
@@ -109,7 +109,6 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 一部アコーディオンで表示・非表示可能な形で実装（jQuery使用）
-                                等。
                             </li>
                         </ul>
                     </div>

@@ -301,7 +301,6 @@ li {
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		// width: vw(150);
 		height: vw(40);
 		margin: auto;
 		margin-top: vw(15);
@@ -576,8 +575,6 @@ li {
 	justify-content: center;
 	width: 100%;
 	margin: 0 auto;
-	// position: fixed;
-	// z-index: 99;
 	padding-top: vw(75);
 	padding-right: vw(16);
 	padding-left: vw(16);
@@ -655,7 +652,7 @@ li {
 	display: flex;
 	justify-content: center;
 
-	a, span {
+	&__page-numbers, .prev, .next {
 		width: vw(40);
 		height: vw(40);
 		margin: vw(10);
@@ -1468,8 +1465,6 @@ li {
 	}
 
 	.blinking {
-		// animation: blink 1s infinite alternate;
-		// animation: blinkEffect 1s ease-in-out infinite alternate;
 		animation: blink 3s ease-in-out infinite alternate;
 	}
 
@@ -1688,7 +1683,6 @@ li {
 		max-width: vw(150);
 		border: vw(10) solid #fff;
 		border-radius: 50%;
-		// background-color: #f5f5dc;
 		background: url(../image/tree_bark.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
@@ -1893,23 +1887,6 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="email2"]
 	}
 }
 
-// textarea {
-// 	max-width: 100%;
-// 	padding: vw(10) vw(15);
-// 	transition: 0.1s;
-// 	outline: solid 1px #575757;
-// 	background-color: #eeeeee;
-// 	font-size: vw(15);
-// 	@include mq() {
-// 		padding: vwt(10) vwt(15);
-// 		font-size: vwt(16);
-// 	}
-// 	@include mq(lg) {
-// 		padding: px2Rem(10) px2Rem(15);
-// 		font-size: px2Rem(16);
-// 	}
-// }
-
 input[type="text"], input[type="tel"], input[type="email"], input[type="email2"], input[type="company"], input[type="department"], textarea {
 	&:focus {
 		color: #575757;
@@ -2017,17 +1994,6 @@ input[type="submit"]:hover {
 	background-position: right;
 }
 
-// .error {
-// 	color: #cc4a8b;
-// 	font-size: vw(1.6);
-// 	@include mq() {
-// 		font-size: vwt(1.6);
-// 	}
-// 	@include mq(lg) {
-// 		font-size: px2Rem(1.6);
-// 	}
-// }
-
 // ローダーの配置を変更（送信ボタンを中央に配置）
 span.wpcf7-spinner {
 	display: none;
@@ -2060,63 +2026,6 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		padding: px2Rem(10) px2Rem(15);
 	}
 }
-
-// textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.inquiry {
-// 	max-width: 100%;
-// 	margin: 0 auto;
-// 	padding: vw(8);
-// 	transition: 0.1s;
-// 	outline: solid 1px #575757;
-// 	background-color: #eeeeee;
-// 	font-size: vw(15);
-// 	@include mq() {
-// 		max-width: vwt(1200);
-// 		padding: vwt(8);
-// 		font-size: vwt(16);
-// 	}
-// 	@include mq(lg) {
-// 		max-width: px2Rem(1200);
-// 		padding: px2Rem(8);
-// 		font-size: px2Rem(16);
-// 	}
-// }
-
-// input#send.wpcf7-form-control.wpcf7-submit.has-spinner.send {
-// 	display: inline-block;
-// 	width: 100%;
-// 	max-width: vw(300);
-// 	margin-top: vw(20);
-// 	margin-bottom: vw(30);
-// 	padding: vw(12) vw(10);
-// 	transition: 0.2s linear;
-// 	text-align: center;
-// 	color: #fff;
-// 	border: 1px solid #575757;
-// 	border-radius: vw(40);
-// 	background-image: linear-gradient(to right, #575757 0%, #575757 50%, #fff 50%, #fff 100%);
-// 	background-size: 200%;
-// 	font-size: vw(15);
-// 	font-weight: 600;
-// 	@include mq() {
-// 		max-width: vwt(300);
-// 		margin-top: vwt(30);
-// 		margin-bottom: vwt(30);
-// 		padding: vwt(12) vwt(10);
-// 		font-size: vwt(15);
-// 	}
-// 	@include mq(lg) {
-// 		max-width: px2Rem(300);
-// 		margin-top: px2Rem(30);
-// 		margin-bottom: px2Rem(30);
-// 		padding: px2Rem(12) px2Rem(10);
-// 		font-size: px2Rem(15);
-// 	}
-// }
-// input#send.wpcf7-form-control.wpcf7-submit.has-spinner.send:hover {
-// 	opacity: 1;
-// 	color: #575757;
-// 	background-position: right;
-// }
 
 /* -------------------- 404-------------------- */
 
@@ -2295,7 +2204,6 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	}
 
 	&__nav-item {
-		// width: vw(250);
 		width: 47%;
 		padding: vw(5) vw(15);
 		transition: 0.3s;
@@ -2306,14 +2214,12 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		font-size: vw(15);
 		font-weight: 500;
 		@include mq() {
-			// width: vwt(180);
 			width: 23%;
 			padding: vwt(5) vwt(15);
 			border-radius: vwt(5);
 			font-size: vwt(15);
 		}
 		@include mq(lg) {
-			// width: px2Rem(180);
 			padding: px2Rem(5) px2Rem(15);
 			border-radius: px2Rem(5);
 			font-size: px2Rem(15);
@@ -2371,7 +2277,6 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	&__box {
 		width: 100%;
 		height: vw(635);
-		// height: 100%;
 		margin: auto;
 		margin-bottom: vw(40);
 		padding: vw(15);
@@ -2403,19 +2308,12 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	&__image {
 		width: 100%;
 		margin: 0 0 vw(10) 0;
-		// background: #fff;
 		@include mq() {
 			margin: 0 0 vwt(10) 0;
-
-			// filter: drop-shadow(vwt(3) vwt(3) vwt(3) #aaa);
 		}
 		@include mq(lg) {
 			margin: 0 0 px2Rem(10) 0;
-
-			// filter: drop-shadow(px2Rem(3) px2Rem(3) px2Rem(3) #aaa);
 		}
-
-		// filter: drop-shadow(vw(3) vw(3) vw(3) #aaa);
 	}
 
 	&__list {
@@ -2541,7 +2439,78 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	}
 }
 
-/* -------------------- Work-details-------------------- */
+
+.filter-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: vw(15);
+	@include mq() {
+		margin: vwt(5);
+		margin-bottom: vwt(15);
+		padding: vwt(10);
+		border-radius: vwt(4);
+
+		gap: vwt(10);
+	}
+	@include mq(lg) {
+		margin: px2Rem(5);
+		margin-bottom: px2Rem(15);
+		padding: px2Rem(10);
+		border-radius: px2Rem(4);
+
+		gap: px2Rem(10);
+	}
+
+	gap: vw(10);
+}
+.filter-list .nav-item {
+	width: 48%;
+	padding: vw(10);
+	cursor: pointer;
+	transition: all 0.3s;
+	text-align: center;
+	border-radius: vw(4);
+	background: #d9d9d9;
+	font-weight: 600;
+	@include mq() {
+		width: 23%;
+		margin: vwt(5);
+		padding: vwt(10);
+		border-radius: vwt(4);
+	}
+	@include mq(lg) {
+		margin: px2Rem(5);
+		padding: px2Rem(10);
+		border-radius: px2Rem(4);
+	}
+}
+.filter-list .nav-item.is-active {
+	background: #ffd065;
+}
+
+.filter-item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.filter-item .works__box {
+	width: 100%;
+	padding: vw(40) vw(20);
+	@include mq() {
+		width: 30%;
+		padding: vwt(40) vwt(20);
+	}
+	@include mq(lg) {
+		padding: px2Rem(40) px2Rem(20);
+	}
+}
+
+/* -------------------- Work details-------------------- */
 
 /* Work-details */
 
@@ -2715,11 +2684,11 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		font-weight: 600;
 		line-height: 1.5;
 		@include mq() {
-			margin-bottom: vwt(20);
+			margin-bottom: vwt(25);
 			font-size: vwt(26);
 		}
 		@include mq(lg) {
-			margin-bottom: px2Rem(20);
+			margin-bottom: px2Rem(25);
 			font-size: px2Rem(26);
 		}
 	}
@@ -2766,6 +2735,16 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 100%;
+		margin-top: vw(5);
+		margin-bottom: vw(5);
+		@include mq() {
+			margin-top: vwt(10);
+			margin-bottom: vwt(10);
+		}
+		@include mq(lg) {
+			margin-bottom: px2Rem(10);
+			margin-bottom: px2Rem(10);
+		}
 	}
 
 	&__list-item {
@@ -2839,52 +2818,108 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		}
 	}
 
+	&__description {
+		@include mq() {
+			display: flex;
+			align-items: flex-start;
+			flex-direction: row;
+			justify-content: flex-start;
+		}
+		@include mq(lg) {
+		}
+	}
+
 	&__description-title {
-		margin-top: vw(10);
+		margin-top: vw(15);
 		margin-right: vw(8);
-		margin-bottom: vw(5);
-		text-align: left;
-		font-size: vw(18);
+		margin-bottom: vw(10);
+		text-align: center;
 		font-weight: 600;
 		line-height: 1.5;
 		@include mq() {
+			width: 15%;
 			margin-top: vwt(10);
 			margin-right: vwt(8);
 			margin-bottom: vwt(5);
-			font-size: vwt(18);
+			text-align: left;
 		}
 		@include mq(lg) {
 			margin-top: px2Rem(10);
 			margin-right: px2Rem(8);
 			margin-bottom: px2Rem(5);
-			font-size: px2Rem(18);
 		}
 	}
 
-	&__description-list-item {
-		padding-bottom: vw(10);
-		list-style-position: inside;
-		list-style-type: disc;
+	&__description-text {
+		text-align: left;
 		@include mq() {
-			padding-bottom: vwt(5);
+			width: 85%;
+			margin-top: vwt(10);
+			margin-right: vwt(8);
+			margin-bottom: vwt(5);
+			line-height: 1.5;
 		}
 		@include mq(lg) {
-			padding-bottom: px2Rem(5);
+			margin-top: px2Rem(10);
+			margin-right: px2Rem(8);
+			margin-bottom: px2Rem(5);
+		}
+	}
+
+	&__description-list {
+		padding-left: vw(20);
+		@include mq() {
+			width: 85%;
+			padding-left: vwt(20);
+		}
+		@include mq(lg) {
+			padding-left: px2Rem(20);
+		}
+	}
+
+
+	&__description-list-item {
+		padding-bottom: vw(5);
+		list-style-position: outside;
+		list-style-type: disc;
+		@include mq() {
+			margin-top: vwt(10);
+			margin-right: vwt(8);
+			padding-bottom: 0;
+		}
+		@include mq(lg) {
+			margin-top: px2Rem(10);
+			margin-right: px2Rem(8);
+		}
+	}
+
+	&__description-list-item:last-child {
+		padding-bottom: vw(15);
+		@include mq() {
+			padding-bottom: vwt(15);
+		}
+		@include mq(lg) {
+			padding-bottom: px2Rem(15);
 		}
 	}
 
 	&__description-list-item--remark {
 		padding-bottom: vw(10);
+		list-style-type: none;
+		color: #ffcc00;
 		@include mq() {
+			margin-top: vwt(10);
+			margin-right: vwt(8);
 			padding-bottom: vwt(5);
 		}
 		@include mq(lg) {
+			margin-top: px2Rem(10);
+			margin-right: px2Rem(8);
 			padding-bottom: px2Rem(5);
 		}
 	}
 
 	&__remark {
-		// color: #ffd065;
 		color: #ffcc00;
 		font-size: vw(16);
 		font-weight: 500;

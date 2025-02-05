@@ -1,4 +1,30 @@
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>坂口真由美 ～トリリンガル・Webクリエイタ～</title>
+    <meta name="Robots" content="noindex,nofollow">
+    <meta name="description" content="坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
+    <meta name="keywords" content="Mayumi Sakaguchi, web creator, Japanese, English, French, 坂口真由美, webクリエイター, 日本語, 英語, フランス語,">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="坂口真由美 ～トリリンガル・Webクリエイタ～">
+    <meta property="og:description" content="坂口真由美 ～トリリンガル・Webクリエイタ～ ポートフォリオ">
+    <meta property="og:url" content="https://mayumi-sakaguchi-dev.com/portfolio-ms">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mayumi Sakaguchi -Trilingual Web Creator-">
+    <link rel="shortcut icon" href="https://mayumi-sakaguchi-dev.com/portfolio-ms/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style/main.min.css">
+    <link rel="preconnect" href="https://fo/nts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <?php wp_head(); ?>
+</head>
+
+<body>
 
 <!-- Header -->
 
@@ -37,33 +63,33 @@
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item">Work details</li>
+                <li class="breadcrumb__item">制作物概要</li>
             </ol>
         </div>
     </div>
-    
-    <!-- Works works -->
+
+    <!-- Works details -->
 
     <section id="work-details" class="work-details">
         <div class="work-details__container">
-            <h1 class="work-details__title">制作物紹介</h1>
+            <h1 class="work-details__title">制作物概要</h1>
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <h2 class="work-details__list-title">ランディングページ（AI翻訳スクール）</h2>
                     <a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">
-                        <h2 class="work-details__list-title">ランディングページ（AI翻訳スクール）</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01.png" alt="" class="work-details__image">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01_sp.png" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">プランニング</li>
-                            <li class="work-details__list-item">ディレクション</li>
-                            <li class="work-details__list-item">ライティング</li>
-                            <li class="work-details__list-item">デザイン</li>
-                            <li class="work-details__list-item">コーディング</li>
-                            <li class="work-details__list-item">WordPress化</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">プランニング</li>
+                        <li class="work-details__list-item">ディレクション</li>
+                        <li class="work-details__list-item">ライティング</li>
+                        <li class="work-details__list-item">デザイン</li>
+                        <li class="work-details__list-item">コーディング</li>
+                        <li class="work-details__list-item">WordPress化</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -72,7 +98,7 @@
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">URL:</h3>
-                        <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank"></a></span>
+                        <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">https://mayumi-sakaguchi-dev.com/ai-trans-academy</a></span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">制作期間: </h3>
@@ -117,9 +143,8 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 セクションごとにさまざまな表情のインストラクターの写真を挿入し、どんな状況でも常にそばにいる感じを演出しました。
-                                等。
                             </li>
-                            <li class="work-details__description-list-item">
+                            <li class="work-details__description-list-item--remark">
                                 ※詳しくは <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy プレゼンテーション-</a></b> をご覧ください。(Japanese only)
                             </li>
                         </ul>
@@ -130,7 +155,6 @@
         </div>
 
         <div class="pagination">
-            <!-- <span class="prev page-numbers">«</span> -->
             <a class="prev page-numbers" href="<?php echo home_url(); ?>/jp-work11">«</a>
             <a class="next page-numbers" href="<?php echo home_url(); ?>/jp-work02">»</a>
         </div>

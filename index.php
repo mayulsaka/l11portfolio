@@ -61,9 +61,9 @@
                                 <li class="swiper-slide__work-list-item">WordPress</li>
                             </ul>
                             <h3 class="swiper-slide__work-title">Landing page (AI translation school)</h3>
-                            <ul class="swiper-slide__work-list">
+                            <!-- <ul class="swiper-slide__work-list">
                                 <li class="swiper-slide__work-list-item limited">Limited access</li>
-                            </ul>
+                            </ul> -->
                         </a>
                     </div>
                     <div class="swiper-slide">

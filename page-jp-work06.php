@@ -37,7 +37,7 @@
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item">Work details</li>
+                <li class="breadcrumb__item">制作物概要</li>
             </ol>
         </div>
     </div>
@@ -46,20 +46,20 @@
 
     <section id="work-details" class="work-details">
         <div class="work-details__container">
-            <h1 class="work-details__title">制作物紹介</h1>
+            <h1 class="work-details__title">制作物概要</h1>
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <h2 class="work-details__list-title">バナー（食品キャンペーン告知）</h2>
                     <a href="https://mayumi-sakaguchi-dev.com/work_06_org.jpg" class="work-details__link" target="_blank">
-                        <h2 class="work-details__list-title">バナー（食品キャンペーン告知）</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_06_org.jpg" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">ライティング</li>
-                            <li class="work-details__list-item">デザイン</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">ライティング</li>
+                        <li class="work-details__list-item">デザイン</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -79,7 +79,7 @@
                         <span class="work-details__description-text">コピーライティング、デザイン</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">使用スキル </h3>
+                        <h3 class="work-details__description-title">使用スキル: </h3>
                         <span class="work-details__description-text">Photoshop</span>
                     </div>
                     <div class="work-details__description">
@@ -98,7 +98,6 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 ローズガーデンのイメージ（自然の美しさと上質さを提供する特別な空間）をダイレクトに強調できるような画像の生成を試みました。
-                                等。
                             </li>
                         </ul>
                     </div>

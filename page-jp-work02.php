@@ -37,7 +37,7 @@
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
                 <li class="breadcrumb__item"><a href="<?php echo home_url(); ?>/jp-works" class="breadcrumb__link">制作実績</a></li>
                 <li class="breadcrumb__item"><img class="breadcrumb__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/image/arrow.png" alt=""></li>
-                <li class="breadcrumb__item">Work details</li>
+                <li class="breadcrumb__item">制作物概要</li>
             </ol>
         </div>
     </div>
@@ -46,25 +46,25 @@
 
     <section id="work-details" class="work-details">
         <div class="work-details__container">
-            <h1 class="work-details__title">制作物紹介</h1>
+            <h1 class="work-details__title">制作物概要</h1>
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
-                    <a href="https://mayumi-sakaguchi-dev.com/ms-portfolio" class="work-details__link" target="_blank">
-                        <h2 class="work-details__list-title">ウェブサイト（ポートフォリオ）</h2>
-                        <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02.png" alt="" class="work-details__image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02_sp.png" alt="" class="work-details__image">
-                        </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">プランニング</li>
-                            <li class="work-details__list-item">ライティング</li>
-                            <li class="work-details__list-item">翻訳</li>
-                            <li class="work-details__list-item">デザイン</li>
-                            <li class="work-details__list-item">コーディング</li>
-                            <li class="work-details__list-item">WordPress</li>
-                        </ul>
-                    </a>
+                    <h2 class="work-details__list-title">ウェブサイト（ポートフォリオ）</h2>
+                    <!-- <a href="https://mayumi-sakaguchi-dev.com/ms-portfolio" class="work-details__link" target="_blank"> -->
+                    <div class="work-details__image-box">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02.png" alt="" class="work-details__image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_02_sp.png" alt="" class="work-details__image">
+                    </div>
+                    <!-- </a> -->
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">プランニング</li>
+                        <li class="work-details__list-item">ライティング</li>
+                        <li class="work-details__list-item">翻訳</li>
+                        <li class="work-details__list-item">デザイン</li>
+                        <li class="work-details__list-item">コーディング</li>
+                        <li class="work-details__list-item">WordPress</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -106,7 +106,6 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 エネルギーと粘り強さを表現するアースカラー（茶色）と、日の出と希望の花を表現するイエロー系カラーを採用しました。
-                                等。
                             </li>
                         </ul>
                     </div>

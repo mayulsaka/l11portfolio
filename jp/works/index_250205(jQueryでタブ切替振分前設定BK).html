@@ -68,16 +68,14 @@
         <section id="works" class="works">
             <div class="works__container">
                 <h1 class="works__title">制作実績</h1>
-
-                <ul class="filter-list">
-                    <li data-filter="all" class="nav-item is-active"><span>すべて</span></li>
-                    <li data-filter="cat1" class="nav-item"><span>ウェブサイト</span></li>
-                    <li data-filter="cat2" class="nav-item"><span>ランディングページ</span></li>
-                    <li data-filter="cat3" class="nav-item"><span>その他</span></li>
+                <ul class="works__nav">
+                    <li class="works__nav-item works__current"><a href="/jp/works" class="works__nav-link">すべて</a></li>
+                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">ランディングページ</a></li>
+                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">ウェブサイト</a></li>
+                    <li class="works__nav-item"><a href="/jp/works" class="works__nav-link">その他</a></li>
                 </ul>
-
-                <div class="filter-item">
-                    <div class="works__box" data-item="cat1">
+                <div class="works__display">
+                    <div class="works__box">
                         <a href="/jp/works/work_11.html" class="works__link">
                             <img src="/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -94,7 +92,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat2">
+                    <div class="works__box">
                         <a href="/jp/works/work_10.html" class="works__link">
                             <img src="/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -111,7 +109,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat2">
+                    <div class="works__box">
                         <a href="/jp/works/work_09.html" class="works__link">
                             <img src="/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -128,7 +126,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat2">
+                    <div class="works__box">
                         <a href="/jp/works/work_08.html" class="works__link">
                             <img src="/assets/image/work_limited.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -145,7 +143,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat2">
+                    <div class="works__box">
                         <a href="/jp/works/work_01.html" class="works__link">
                             <img src="/assets/image/work_01.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -168,7 +166,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat1">
+                    <div class="works__box">
                         <a href="/jp/works/work_02.html" class="works__link">
                             <img src="/assets/image/work_02.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -191,7 +189,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat2">
+                    <div class="works__box">
                         <a href="/jp/works/work_03.html" class="works__link">
                             <img src="/assets/image/work_03.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -205,7 +203,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat3">
+                    <div class="works__box">
                         <a href="/jp/works/work_04.html" class="works__link">
                             <img src="/assets/image/work_04.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -219,7 +217,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat3">
+                    <div class="works__box">
                         <a href="/jp/works/work_05.html" class="works__link">
                             <img src="/assets/image/work_05.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -234,7 +232,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat3">
+                    <div class="works__box">
                         <a href="/jp/works/work_06.html" class="works__link">
                             <img src="/assets/image/work_06.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -249,7 +247,7 @@
                             </ul>
                         </a>
                     </div>
-                    <div class="works__box" data-item="cat3">
+                    <div class="works__box">
                         <a href="/jp/works/work_07.html" class="works__link">
                             <img src="/assets/image/work_07.png" class="works__image" alt="">
                             <ul class="works__list">
@@ -266,17 +264,16 @@
                     </div>
                 </div>
 
+                <div class="pagination">
+                    <span class="prev page-numbers">«</span>
+                    <span class="pagination__page-numbers current">1</span>
+                    <a class="pagination__page-numbers" href="#">2</a>
+                    <a class="pagination__page-numbers" href="#">3</a>
+                    <a class="next page-numbers" href="#">»</a>
+                </div>
+
             </div>
         </section>
-
-
-        <div class="pagination">
-            <span class="prev page-numbers">«</span>
-            <span class="pagination__page-numbers current">1</span>
-            <a class="pagination__page-numbers" href="#">2</a>
-            <a class="pagination__page-numbers" href="#">3</a>
-            <a class="next page-numbers" href="#">»</a>
-        </div>
 
         <!-- To top -->
 

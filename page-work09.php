@@ -43,99 +43,98 @@
     </div>
 
 
-        <!-- Works works -->
+    <!-- Works works -->
 
-        <section id="work-details" class="work-details">
-            <div class="work-details__container">
-                <h1 class="work-details__title">Work details</h1>
+    <section id="work-details" class="work-details">
+        <div class="work-details__container">
+            <h1 class="work-details__title">Work details</h1>
 
-                <div class="work-details__box">
-                    <div class="work-details__box-link">
-                        <a href="<?php echo home_url(); ?>#" target="_blank">
-                            <ul class="work-details__list">
-                                <li class="work-details__list-item limited">Limited access</li>
-                            </ul>
-                            <h2 class="work-details__list-title">Landing page (Beauty cosmetics)</h2>
-                            <div class="work-details__image-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
-                            </div>
-                            <ul class="work-details__list">
-                                <li class="work-details__list-item">Coding</li>
-                            </ul>
-                        </a>
+            <div class="work-details__box">
+                <div class="work-details__box-link">
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item limited">Limited access</li>
+                    </ul>
+                    <h2 class="work-details__list-title">Landing page (Beauty cosmetics)</h2>
+                    <a href="<?php echo home_url(); ?>#" target="_blank">
+                        <div class="work-details__image-box">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                        </div>
+                    </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">Coding</li>
+                    </ul>
+                </div>
+                <div class="work-details__box-description">
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Work type:</h3>
+                        <span class="work-details__description-text">Corporate website creation</span>
                     </div>
-                    <div class="work-details__box-description">
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Work type:</h3>
-                            <span class="work-details__description-text">Corporate website creation</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>#" target="_blank"></a></h3>
-                            <ul class="work-details__description-list">
-                                <li class="work-details__description-list-item--remark">
-                                    <span class="work-details__remark">*Password is required to view this site.If you wish to view it, please message me using the contact form.</span>
-                                </li>
-                                <li class="work-details__description-list-item--remark">
-                                    <span class="work-details__remark">*It is a demo site where some links may not be working properly.</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Schedule:</h3>
-                            <span class="work-details__description-text">2024/12(2 weeks)</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Role:</h3>
-                            <span class="work-details__description-text">Coding</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Skills:</h3>
-                            <span class="work-details__description-text">HTML, CSS, SASS, JavaScript*, jQuery*, VS Code, Adobe XD, Photoshop (*modification)</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Goal:</h3>
-                            <span class="work-details__description-text">Coding in line with design comps (created by other designers) while pursuing pixel perfection.</span>
-                        </div>
-                        <div class="work-details__description">
-                            <h3 class="work-details__description-title">Approach:</h3>
-                            <ul class="work-details__description-list">
-                                <li class="work-details__description-list-item">
-                                    Reproduced complex decorations as much as possible through coding without exporting them as images.
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    Responsive design.
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    Created a hamburger menu for smartphones (fade in and out).
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    Created a carousel (using Slick).
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    Created an accordion wish show/hide functionality (HTML and CSS only).
-                                </li>
-                                <li class="work-details__description-list-item">
-                                    Created a back-to-top button that appears when scrolled down and stops on top of the footer.
-                                    Etc.
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>#" target="_blank"></a></h3>
+                        <ul class="work-details__description-list">
+                            <li class="work-details__description-list-item--remark">
+                                <span class="work-details__remark">*Password is required to view this site.If you wish to view it, please message me using the contact form.</span>
+                            </li>
+                            <li class="work-details__description-list-item--remark">
+                                <span class="work-details__remark">*It is a demo site where some links may not be working properly.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Schedule:</h3>
+                        <span class="work-details__description-text">2024/12(2 weeks)</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Role:</h3>
+                        <span class="work-details__description-text">Coding</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Skills:</h3>
+                        <span class="work-details__description-text">HTML, CSS, SASS, JavaScript*, jQuery*, VS Code, Adobe XD, Photoshop (*modification)</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Goal:</h3>
+                        <span class="work-details__description-text">Coding in line with design comps (created by other designers) while pursuing pixel perfection.</span>
+                    </div>
+                    <div class="work-details__description">
+                        <h3 class="work-details__description-title">Approach:</h3>
+                        <ul class="work-details__description-list">
+                            <li class="work-details__description-list-item">
+                                Reproduced complex decorations as much as possible through coding without exporting them as images.
+                            </li>
+                            <li class="work-details__description-list-item">
+                                Responsive design.
+                            </li>
+                            <li class="work-details__description-list-item">
+                                Created a hamburger menu for smartphones (fade in and out).
+                            </li>
+                            <li class="work-details__description-list-item">
+                                Created a carousel (using Slick).
+                            </li>
+                            <li class="work-details__description-list-item">
+                                Created an accordion wish show/hide functionality (HTML and CSS only).
+                            </li>
+                            <li class="work-details__description-list-item">
+                                Created a back-to-top button that appears when scrolled down and stops on top of the footer.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="pagination">
-                <a class="prev page-numbers" href="<?php echo home_url(); ?>/work08">«</a>
-                <a class="next page-numbers" href="<?php echo home_url(); ?>/work10">»</a>
+        <div class="pagination">
+            <a class="prev page-numbers" href="<?php echo home_url(); ?>/work08">«</a>
+            <a class="next page-numbers" href="<?php echo home_url(); ?>/work10">»</a>
+        </div>
+
+        <div class="view-more">
+            <div class="view-more__container">
+                <a href="<?php echo home_url(); ?>/works" class="view-more__link">See all works</a>
             </div>
+        </div>
 
-            <div class="view-more">
-                <div class="view-more__container">
-                    <a href="<?php echo home_url(); ?>/works" class="view-more__link">See all works</a>
-                </div>
-            </div>
-
-        </section>
+    </section>
 
     <!-- To top -->
 

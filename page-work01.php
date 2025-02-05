@@ -50,21 +50,21 @@
 
             <div class="work-details__box">
                 <div class="work-details__box-link">
+                    <h2 class="work-details__list-title">Landing page (AI translation school)</h2>
                     <a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">
-                        <h2 class="work-details__list-title">Landing page (AI translation school)</h2>
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01.png" alt="" class="work-details__image">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_detail_01_sp.png" alt="" class="work-details__image">
                         </div>
-                        <ul class="work-details__list">
-                            <li class="work-details__list-item">Planning</li>
-                            <li class="work-details__list-item">Direction</li>
-                            <li class="work-details__list-item">Writing</li>
-                            <li class="work-details__list-item">Design</li>
-                            <li class="work-details__list-item">Coding</li>
-                            <li class="work-details__list-item">WordPress</li>
-                        </ul>
                     </a>
+                    <ul class="work-details__list">
+                        <li class="work-details__list-item">Planning</li>
+                        <li class="work-details__list-item">Direction</li>
+                        <li class="work-details__list-item">Writing</li>
+                        <li class="work-details__list-item">Design</li>
+                        <li class="work-details__list-item">Coding</li>
+                        <li class="work-details__list-item">WordPress</li>
+                    </ul>
                 </div>
                 <div class="work-details__box-description">
                     <div class="work-details__description">
@@ -73,7 +73,7 @@
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">URL:</h3>
-                        <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank"></a></span>
+                        <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">https://mayumi-sakaguchi-dev.com/ai-trans-academy</a></span>
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">Production period:</h3>
@@ -118,9 +118,8 @@
                             </li>
                             <li class="work-details__description-list-item">
                                 Inserted instructor's pictures with various facial expressions for each section, in order to create a feeling that she is always there for you in any situation.
-                                Etc.
                             </li>
-                            <li class="work-details__description-list-item">
+                            <li class="work-details__description-list-item--remark">
                                 *For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy presentation material</a></b> (Japanese only)
                             </li>
                         </ul>
