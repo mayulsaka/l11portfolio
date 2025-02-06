@@ -2882,6 +2882,17 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		}
 	}
 
+	&__description-list--url {
+		padding-left: 0;
+		@include mq() {
+			width: 85%;
+			// padding-left: 0;
+			// padding-left: vwt(20);
+		}
+		// @include mq(lg) {
+		// 	padding-left: px2Rem(20);
+		// }
+	}
 
 	&__description-list-item {
 		padding-bottom: vw(5);
@@ -2905,6 +2916,22 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		}
 		@include mq(lg) {
 			padding-bottom: px2Rem(15);
+		}
+	}
+
+	&__description-list-item--url {
+		padding-bottom: vw(10);
+		list-style-type: none;
+		// color: #ffcc00;
+		@include mq() {
+			margin-top: vwt(10);
+			margin-right: vwt(8);
+			padding-bottom: vwt(5);
+		}
+		@include mq(lg) {
+			margin-top: px2Rem(10);
+			margin-right: px2Rem(8);
+			padding-bottom: px2Rem(5);
 		}
 	}
 

@@ -79,7 +79,7 @@
                             <li class="work-details__list-item limited">限定公開</li>
                         </ul>
                         <h2 class="work-details__list-title">ランディングページ（学習塾）</h2>
-                        <a href="<?php echo home_url(); ?>#" target="_blank">
+                        <a href=http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">
                             <div class="work-details__image-box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
                             </div>
@@ -94,8 +94,11 @@
                             <span class="work-details__description-text">ランディングページ（学習塾）</span>
                         </div>
                         <div class="work-details__description">
-                            <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>#" target="_blank">#</a></h3>
-                            <ul class="work-details__description-list">
+                            <h3 class="work-details__description-title">URL:</h3>
+                            <ul class="work-details__description-list--url">
+                                <li class="work-details__description-list-item--url">
+                                    <span class="work-details__description-text"><a href="http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">http://demo.mayumi-sakaguchi-dev.com/#</a></span>
+                                </li>
                                 <li class="work-details__description-list-item--remark">
                                     <span class="work-details__remark">※こちらは限定公開となっております。ご覧いただく際にはパスワードが必要となりますので、閲覧をご希望の方はお問い合わせください。</span>
                                 </li>

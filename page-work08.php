@@ -55,7 +55,7 @@
                         <li class="work-details__list-item limited">Limited access</li>
                     </ul>
                     <h2 class="work-details__list-title">Landing page (Cram school)</h2>
-                    <a href="<?php echo home_url(); ?>#" target="_blank">
+                    <a href=http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">
                         <div class="work-details__image-box">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
                         </div>
@@ -70,8 +70,11 @@
                         <span class="work-details__description-text">Corporate website creation</span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">URL:<a href="<?php echo home_url(); ?>#" target="_blank"></a></h3>
-                        <ul class="work-details__description-list">
+                        <h3 class="work-details__description-title">URL:</h3>
+                        <ul class="work-details__description-list--url">
+                            <li class="work-details__description-list-item--url">
+                                <span class="work-details__description-text"><a href="http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">http://demo.mayumi-sakaguchi-dev.com/#</a></span>
+                            </li>
                             <li class="work-details__description-list-item--remark">
                                 <span class="work-details__remark">*Password is required to view this site.If you wish to view it, please message me using the contact form.</span>
                             </li>
