@@ -76,7 +76,7 @@
                         <span class="work-details__description-text"><a href="https://mayumi-sakaguchi-dev.com/ai-trans-academy" target="_blank">https://mayumi-sakaguchi-dev.com/ai-trans-academy</a></span>
                     </div>
                     <div class="work-details__description">
-                        <h3 class="work-details__description-title">Production period:</h3>
+                        <h3 class="work-details__description-title">Schedule</h3>
                         <span class="work-details__description-text">2024/01-02(2 months)</span>
                     </div>
                     <div class="work-details__description">
@@ -119,12 +119,10 @@
                             <li class="work-details__description-list-item">
                                 Inserted instructor's pictures with various facial expressions for each section, in order to create a feeling that she is always there for you in any situation.
                             </li>
-                            <li class="work-details__description-list-item--remark">
-                                *For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy presentation material</a></b> (Japanese only)
-                            </li>
                         </ul>
                     </div>
-                    <span class="work-details__remark">*This course is a fictitious one created as a school assignment and does not actually exist.</span>
+                    <p class="work-details__remark">*For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy presentation material</a></b> (Japanese only).</p>
+                    <p class="work-details__remark">*This course is a fictitious one created as a school assignment and does not actually exist.</p>
                 </div>
             </div>
         </div>

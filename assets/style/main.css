@@ -3559,11 +3559,11 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
     padding-left: 1.25rem;
   }
 }
-.work-details__description-list--url {
+.work-details__description-list--remark {
   padding-left: 0;
 }
 @media screen and (min-width: 768px) {
-  .work-details__description-list--url {
+  .work-details__description-list--remark {
     width: 85%;
   }
 }

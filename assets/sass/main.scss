@@ -2882,16 +2882,11 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		}
 	}
 
-	&__description-list--url {
+	&__description-list--remark {
 		padding-left: 0;
 		@include mq() {
 			width: 85%;
-			// padding-left: 0;
-			// padding-left: vwt(20);
 		}
-		// @include mq(lg) {
-		// 	padding-left: px2Rem(20);
-		// }
 	}
 
 	&__description-list-item {
@@ -2922,7 +2917,6 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	&__description-list-item--url {
 		padding-bottom: vw(10);
 		list-style-type: none;
-		// color: #ffcc00;
 		@include mq() {
 			margin-top: vwt(10);
 			margin-right: vwt(8);

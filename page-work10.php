@@ -71,7 +71,7 @@
                     </div>
                     <div class="work-details__description">
                         <h3 class="work-details__description-title">URL:</h3>
-                        <ul class="work-details__description-list--url">
+                        <ul class="work-details__description-list--remark">
                             <li class="work-details__description-list-item--url">
                                 <span class="work-details__description-text"><a href="http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">http://demo.mayumi-sakaguchi-dev.com/#</a></span>
                             </li>
