@@ -446,7 +446,7 @@ li {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: vw(70);
+	height: vw(50);
 	margin: 0 auto;
 	padding-right: vw(16);
 	padding-left: vw(16);
@@ -461,6 +461,7 @@ li {
 		padding-right: px2Rem(16);
 		padding-left: px2Rem(16);
 	}
+
 	&__text {
 		display: flex;
 		align-items: center;
@@ -1472,6 +1473,7 @@ li {
 		0% {
 			color: #fff;
 		}
+
 		100% {
 			color: #ffd065;
 		}
@@ -2004,6 +2006,7 @@ span.wpcf7-spinner {
 	margin: 0;
 	padding: 0;
 }
+
 .wpcf7-form-control-wrap {
 	margin: 0;
 	padding: 0;
@@ -2466,6 +2469,7 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 
 	gap: vw(10);
 }
+
 .filter-list .nav-item {
 	width: 48%;
 	padding: vw(10);
@@ -2487,6 +2491,7 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 		border-radius: px2Rem(4);
 	}
 }
+
 .filter-list .nav-item.is-active {
 	background: #ffd065;
 }
