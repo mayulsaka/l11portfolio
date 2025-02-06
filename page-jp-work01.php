@@ -145,7 +145,7 @@
                                     セクションごとにさまざまな表情のインストラクターの写真を挿入し、どんな状況でも常にそばにいる感じを演出しました。
                                 </li>
                                 <li class="work-details__description-list-item--remark">
-                                    ※詳しくは <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy プレゼンテーション-</a></b> をご覧ください。(Japanese only)
+                                    ※詳しくは <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy プレゼンテーション-</a></b> をご覧ください。
                                 </li>
                             </ul>
                         </div>
