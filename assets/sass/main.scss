@@ -1936,14 +1936,14 @@ textarea {
 		height: vwt(200);
 		margin-top: vwt(5);
 		margin-bottom: vwt(10);
-		padding: vwt(15) vwt(25);
+		padding: vwt(15) vwt(20);
 		font-size: vwt(16);
 	}
 	@include mq(lg) {
 		height: px2Rem(200);
 		margin-top: px2Rem(5);
 		margin-bottom: px2Rem(10);
-		padding: px2Rem(15) px2Rem(25);
+		padding: px2Rem(15) px2Rem(20);
 		font-size: px2Rem(16);
 	}
 }

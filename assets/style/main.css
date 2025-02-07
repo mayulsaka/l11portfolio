@@ -2365,7 +2365,7 @@ textarea {
     height: 16.6666666667vw;
     margin-top: 0.4166666667vw;
     margin-bottom: 0.8333333333vw;
-    padding: 1.25vw 2.0833333333vw;
+    padding: 1.25vw 1.6666666667vw;
     font-size: 1.3333333333vw;
   }
 }
@@ -2374,7 +2374,7 @@ textarea {
     height: 12.5rem;
     margin-top: 0.3125rem;
     margin-bottom: 0.625rem;
-    padding: 0.9375rem 1.5625rem;
+    padding: 0.9375rem 1.25rem;
     font-size: 1rem;
   }
 }
