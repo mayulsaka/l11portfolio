@@ -146,7 +146,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p class="work-details__remark">※詳しくは <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy プレゼンテーション-</a></b> をご覧ください。</p>
+                        <p class="work-details__remark">※詳しくは <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">「AI-Trans Academy プレゼンテーション」</a></b> をご覧ください。</p>
                         <p class="work-details__remark">※こちらの講座はスクール課題として作成した架空のものであり、実在いたしません。</p>
                     </div>
                 </div>

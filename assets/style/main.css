@@ -3619,7 +3619,7 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 .work-details__description-list-item--remark {
   padding-bottom: 2.5641025641vw;
   list-style-type: none;
-  color: #ffcc00;
+  color: #d6a700;
 }
 @media screen and (min-width: 768px) {
   .work-details__description-list-item--remark {
@@ -3636,7 +3636,7 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
   }
 }
 .work-details__remark {
-  color: #ffcc00;
+  color: #d6a700;
   font-size: 4.1025641026vw;
   font-weight: 500;
 }

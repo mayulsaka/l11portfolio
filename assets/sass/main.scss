@@ -2932,12 +2932,13 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	&__description-list-item--remark {
 		padding-bottom: vw(10);
 		list-style-type: none;
-		color: #ffcc00;
+		// color: #ffcc00;
+		color: #d6a700;
 		@include mq() {
 			margin-top: vwt(10);
 			margin-right: vwt(8);
 			padding-bottom: vwt(5);
-		}
+		};
 		@include mq(lg) {
 			margin-top: px2Rem(10);
 			margin-right: px2Rem(8);
@@ -2946,7 +2947,8 @@ textarea#inquiry.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.i
 	}
 
 	&__remark {
-		color: #ffcc00;
+		// color: #ffcc00;
+		color: #d6a700;
 		font-size: vw(16);
 		font-weight: 500;
 		@include mq() {

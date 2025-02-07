@@ -54,11 +54,9 @@
                         <li class="work-details__list-item limited">Limited access</li>
                     </ul>
                     <h2 class="work-details__list-title">Website (Agricultural equipment maker)</h2>
-                    <a href=http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">
-                        <div class="work-details__image-box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
-                        </div>
-                    </a>
+                    <div class="work-details__image-box">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/work_limited_org.jpg" alt="" class="work-details__image">
+                    </div>
                     <ul class="work-details__list">
                         <li class="work-details__list-item">Coding</li>
                     </ul>
@@ -72,7 +70,7 @@
                         <h3 class="work-details__description-title">URL:</h3>
                         <ul class="work-details__description-list--remark">
                             <li class="work-details__description-list-item--url">
-                                <span class="work-details__description-text"><a href="http://demo.mayumi-sakaguchi-dev.com/#" target="_blank">http://demo.mayumi-sakaguchi-dev.com/#</a></span>
+                                <span class="work-details__description-text"><a href="http://demo.mayumi-sakaguchi-dev.com/website1" target="_blank">http://demo.mayumi-sakaguchi-dev.com/website1</a></span>
                             </li>
                             <li class="work-details__description-list-item--remark">
                                 <span class="work-details__remark">*Password is required to view this site.If you wish to view it, please message me using the contact form.</span>

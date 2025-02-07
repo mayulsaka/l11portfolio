@@ -121,7 +121,7 @@
                             </li>
                         </ul>
                     </div>
-                    <p class="work-details__remark">*For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">AI-Trans Academy presentation material</a></b> (Japanese only).</p>
+                    <p class="work-details__remark">*For more detail, please see <b><a href="https://drive.google.com/file/d/1fPKcQuDo0wVvAIHTfTNvK8nvO1-xK8T2/view?usp=sharing" target="_blank">"AI-Trans Academy presentation material"</a></b> (Japanese only).</p>
                     <p class="work-details__remark">*This course is a fictitious one created as a school assignment and does not actually exist.</p>
                 </div>
             </div>
